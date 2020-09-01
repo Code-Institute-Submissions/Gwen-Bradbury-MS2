@@ -9,10 +9,6 @@ function initMap() {
 
         var labels = "0123456789";
 
-        var locations = [
-            { lat: 54.1388, lng: -2.7174 }
-        ];
-
         var markers = locations.map(function(location, i) {
             return new google.maps.Marker({
                 position: location,
@@ -22,3 +18,8 @@ function initMap() {
         var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
         }
+
+        var locations = [
+            { lat: 54.1388, lng: -2.7174 },
+            Content
+        ];

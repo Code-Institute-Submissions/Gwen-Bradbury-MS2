@@ -31,6 +31,6 @@ h4 {
 
 /* Map */
 
-#map {
-    height: 100%;
+div#map {
+    min-height: 360px;
 }
