@@ -1,7 +1,15 @@
 /* Navbar */
-.nav-item,
-.dropdown-item {
-    color: #14213d
+nav {
+  background-color: #14213d;
+  color: #e5e5e5;
+}
+
+.navbar-toggler-icon {
+    border: 2px solid #e5e5e5;
+}
+
+.nav-link {
+    color: #e5e5e5;
 }
 
 /* About */
@@ -21,3 +29,8 @@ h4 {
     padding-top: 10px;
 }
 
+/* Map */
+
+#map {
+    height: 100%;
+}

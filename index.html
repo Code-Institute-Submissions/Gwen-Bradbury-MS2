@@ -8,8 +8,8 @@
   </head>
   <body>
   <!-- Navbar taken from bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Into The Blue</a>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#top">Into The Blue</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -21,7 +21,6 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -53,16 +52,22 @@
     </nav>
   <!-- About -->
   <div class="container-fluid about">
+  <div class="row">
+  <div class="col-12">
   <h4 id="top">About
   </h4>
   <p>Click a map pin to discover a UK dive site!</p>
   <p>Use the "Add to Wishlist" button to add the name and location of the divesite to your list!</p>
-  <p>Drop your email address into the email me form at the bottom of the page to have your wishlist sent straight to your emails!</p> 
+  <p>Drop your email address into the "email me" form at the bottom of the page to have your wishlist sent straight to your emails!</p> 
+  </div>
+  </div>
   </div>
   <!-- Google Map -->
-    <h1 id="map">Map
-    </h1>
-    <div>
+  <div class="row">
+  <div class="col-12">
+    <div id="map">
+    </div>
+    </div>
     </div>
   <!-- Wish List -->
   <h1 id="wishlist">Wish List
@@ -72,6 +77,7 @@
   </h1>
 
   <footer></footer>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -93,6 +99,10 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+    </script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6Dw95T12DzbfvxSPA-HaMMC3v_UBkotc&callback=initMap">
+    </script>
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/notes.js"></script>
     <script src="assets/js/sendEmail.js"></script>
