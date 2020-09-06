@@ -54,8 +54,7 @@
   <div class="container-fluid about">
   <div class="row">
   <div class="col-12">
-  <h4 id="top">About
-  </h4>
+  <h4 id="top">About</h4>
   <p>Click a map pin to discover a UK dive site!</p>
   <p>Use the "Add to Wishlist" button to add the name and location of the divesite to your list!</p>
   <p>Drop your email address into the "email me" form at the bottom of the page to have your wishlist sent straight to your emails!</p> 
@@ -70,8 +69,26 @@
     </div>
     </div>
   <!-- Wish List -->
-  <h1 id="wishlist">Wish List
-  </h1>
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-6 ">
+  <h4>Wish List</h4>
+  <div id="wishlist">
+  <ul>
+  </ul>
+  <div id="addLocationButton">
+  <button href="#" id="showForm">Add Location</button>
+  </div>
+  <form id="addLocationForm">
+  <input type="text" id="locationName" placeholder="Add Location Name..."/>
+  <input type="submit" id="addButton" value="Add"/>
+  </form>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Don't Forget! -->
+  
   <!-- Email Form -->
   <h1 id="emailme">Email
   </h1>
@@ -100,7 +117,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6Dw95T12DzbfvxSPA-HaMMC3v_UBkotc&callback=initMap">
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvEwDg0hVK9kNNuuqKCYi3V9PDB3ZnuMs&callback=initMap">
     </script>
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/notes.js"></script>

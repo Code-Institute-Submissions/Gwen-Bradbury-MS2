@@ -30,7 +30,18 @@ h4 {
 }
 
 /* Map */
-
 div#map {
     min-height: 360px;
+}
+
+/* Wish List */
+#wishlist {
+    min-height: 360px;
+    border: 2px #14213d solid;
+}
+
+#addLocationButton,
+#addLocationForm {
+    margin-right: 0;
+    margin-bottom: 0;
 }
