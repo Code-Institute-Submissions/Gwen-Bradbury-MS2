@@ -20,18 +20,20 @@ nav {
     text-align: center; 
 }
 
-h4,
+h2,
 p {
     padding-bottom: 10px;
 }
 
-h4 {
+h2 {
     padding-top: 10px;
 }
 
 /* Map */
 div#map {
     min-height: 360px;
+    margin: 20px;
+    border: 2px solid #14213d;
 }
 
 /* Wish List */
@@ -40,8 +42,8 @@ div#map {
     border: 2px #14213d solid;
 }
 
-#addLocationButton,
-#addLocationForm {
-    margin-right: 0;
-    margin-bottom: 0;
+h4 {
+    background-color: #14213d;
+    color: #e5e5e5;
+    padding: 10px;
 }
