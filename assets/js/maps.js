@@ -1,58 +1,42 @@
 function initMap() {
-        let map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 3,
-            center: {
-                lat: 52.3555,
-                lng: -1.1743
-            }
-        });
-
-         let locations = [
-            { lat: 54.1388, lng: -2.7174 }, 
-            { lat: 51.1781, lng: -4.6673 },
-            { lat: 58.9000, lng: -3.0500 },
-            { lat: 55.6399, lng: -1.6030 },
-            { lat: 51.7374, lng: -5.2815 },
-            { lat: 57.8167, lng: -8.5833 },
-            { lat: 50.0500, lng: -5.0500 },
-            { lat: 53.1460, lng: -4.3559 },
-            { lat: 55.892, lng: -2.152 },
-            { lat: 50.342, lng: -2.2640 }
-        ];
-
-        let infowindow = new google.maps.InfoWindow({
-        content: Divesite()
-        });
-
-        let markers = locations.map(function(location) {
-            return new google.maps.Marker({
-                position: location,
-                map: map,
-              });
-              marker.addListener('click', function() {
-                  infowindow.open(map, marker);
-               });
-        });
-
-        function Divesite (name, features, link) {
-        this.name = name;
-        this.features = features;
-        this.link = link;
-        };
-
-        let capernwrayDivesite = new Divesite ('Capernwray', 'Dive shop, with a filling station providing air and nitrox.Quarry stocked with fish, including trout, perch and at least two sturgeon, and many underwater attractions!', '<a href="https://en.wikipedia.org/wiki/Capernwray_Dive_Centre" target="_blank"></a>');
-        let lundyIslandDivesite
-        let scapaFlowDivesite
-        let farneIslandsDivesite
-        let skomerMarineReserveDivesite
-        let stKildaDivesite
-        let theManaclesDivesite
-        let rhoscolynBeaconDivesite
-        let stAbbsMarineReserveDivesite
-        let m2PortlandDivesite
-
-        let markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-        }
-
-        
+  let capernwray = { lat: 54.1388, lng: -2.7174 };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: {
+        lat: 51.5074,
+        lng: 0.1278
+    }
+  });
+  const contentString =
+    '<div id="content">' +
+    '<div id="siteNotice">' +
+    "</div>" +
+    '<h1 id="firstHeading" class="firstHeading">Uluru</h1>' +
+    '<div id="bodyContent">' +
+    "<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large " +
+    "sandstone rock formation in the southern part of the " +
+    "Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) " +
+    "south west of the nearest large town, Alice Springs; 450&#160;km " +
+    "(280&#160;mi) by road. Kata Tjuta and Uluru are the two major " +
+    "features of the Uluru - Kata Tjuta National Park. Uluru is " +
+    "sacred to the Pitjantjatjara and Yankunytjatjara, the " +
+    "Aboriginal people of the area. It has many springs, waterholes, " +
+    "rock caves and ancient paintings. Uluru is listed as a World " +
+    "Heritage Site.</p>" +
+    '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">' +
+    "https://en.wikipedia.org/w/index.php?title=Uluru</a> " +
+    "(last visited June 22, 2009).</p>" +
+    "</div>" +
+    "</div>";
+  const infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+  const marker = new google.maps.Marker({
+    position: capernwray,
+    map,
+    title: "Capernwray"
+  });
+  marker.addListener("click", () => {
+    infowindow.open(map, marker);
+  });
+}
