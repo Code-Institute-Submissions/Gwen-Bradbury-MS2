@@ -6,8 +6,6 @@ function initMap() {
                 lng: -1.1743
             }
         });
-    
-        let labels = "0123456789";
 
          let locations = [
             { lat: 54.1388, lng: -2.7174 }, 
@@ -22,14 +20,18 @@ function initMap() {
             { lat: 50.342, lng: -2.2640 }
         ];
 
-        let markers = locations.map(function(location, i) {
+        let infowindow = new google.maps.InfoWindow({
+        content: Divesite()
+        });
+
+        let markers = locations.map(function(location) {
             return new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+                map: map,
               });
-              markers.addListener('click', function() {
-            infowindow.open(map, markers);
-        });
+              marker.addListener('click', function() {
+                  infowindow.open(map, marker);
+               });
         });
 
         function Divesite (name, features, link) {
@@ -48,10 +50,6 @@ function initMap() {
         let rhoscolynBeaconDivesite
         let stAbbsMarineReserveDivesite
         let m2PortlandDivesite
-
-        let infowindow = new google.maps.InfoWindow({
-        content: Divesite()
-        });
 
         let markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});

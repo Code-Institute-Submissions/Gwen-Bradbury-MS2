@@ -47,3 +47,8 @@ h4 {
     color: #e5e5e5;
     padding: 10px;
 }
+
+#addLocationButton,
+#addLocationForm {
+    float: right;
+}
