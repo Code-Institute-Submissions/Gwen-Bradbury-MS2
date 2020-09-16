@@ -67,7 +67,7 @@ h4 {
 
 /* Email */
 #emailme {
-    background: url('../images/sharks.jpeg') no-repeat top;
+    background: url('../images/divers.jpeg') no-repeat top;
     background-size: 100%;
     margin-top: 20px;
 }
@@ -76,6 +76,6 @@ h4 {
     color: #e5e5e5;
     text-align: center;
     margin: 10px auto 10px auto;
-    padding: 20px;
+    padding: 10px;
     font-size: 100%;
 }

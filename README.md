@@ -5,5 +5,5 @@ https://developers.google.com/maps/documentation/javascript/infowindows - map ma
 https://m.youtube.com/watch?v=Zxf Google maps JS API tutorial - map markers and info windows
 Javascript and JQuery by Jon Duckett - wish list add button/ wish list js
 https://www.redbull.com/gb-en/ten-best-scuba-diving-locations-in-uk - divesite info
-unsplash.com - images
-pexels.com - images
+https://unsplash.com/ - images
+https://www.pexels.com/ - images
