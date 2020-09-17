@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Into The Blue</title>
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-  <!-- Navbar taken from bootstrap -->
+    <!-- Navbar taken from bootstrap -->
     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#top">Into The Blue</a>
       <button
@@ -50,101 +50,117 @@
         </ul>
       </div>
     </nav>
-  <!-- About -->
-  <div class="container-fluid about">
-  <div class="row">
-  <div class="col-12">
-  <h2 id="top">About</h2>
-  <p>Click a map pin to discover a UK dive site!</p>
-  <p>Use the "Add to Wishlist" button to add the name and location of the divesite to your list!</p>
-  <p>Drop your email address into the "email me" form at the bottom of the page to have your wishlist sent straight to your emails!</p> 
-  </div>
-  </div>
-  </div>
-  <!-- Google Map -->
-  <div class="row">
-  <div class="col-12">
-    <div id="map">
+    <!-- About -->
+    <div class="container-fluid about">
+      <div class="row">
+        <div class="col-12">
+          <h2 id="top">About</h2>
+          <p>Click a map pin to discover a UK dive site!</p>
+          <p>
+            Use the "Add to Wishlist" button to add the name and location of the
+            divesite to your list!
+          </p>
+          <p>
+            Drop your email address into the "email me" form at the bottom of
+            the page to have your wishlist sent straight to your emails!
+          </p>
+        </div>
+      </div>
     </div>
+    <!-- Google Map -->
+    <div class="row">
+      <div class="col-12">
+        <div id="map"></div>
+      </div>
     </div>
+    <!-- Wish List -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div id="wishlist">
+            <h4>Wish List</h4>
+            <ul class="items">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Don't Forget! -->
+        <div class="col-md-6 col-sm-12">
+          <div id="dontforget">
+            <h4>Don't Forget!</h4>
+            <ul class="items">
+              <li>Fins</li>
+              <li>Weights</li>
+              <li>Mask and Snorkel</li>
+              <li>Licenses</li>
+              <li>And BUDDIES!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-  <!-- Wish List -->
-  <div class="row">
-  <div class="col-md-6 col-sm-12">
-    <div id="wishlist">
-    <h4>Wish List</h4>
-    <ul class="items">
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    </ul>
-    </div>
-    </div>
-  <!-- Don't Forget! -->
-  <div class="col-md-6 col-sm-12">
-    <div id="dontforget">
-    <h4>Don't Forget!</h4>
-    <ul class="items">
-    <li>Fins</li>
-    <li>Weights</li>
-    <li>Mask and Snorkel</li>
-    <li>Licenses</li>
-    <li>And BUDDIES!</li>
-    </ul>
-    </div>
-    </div>
-    </div>
-  <!-- Email Form -->
-  <div class="row">
-  <div class="col-12">
-  <div id="emailme">
-  <h4>Email Me</h4>
-  <div class="form-row">
-                <div class="col-4">
-                  <label for="validationDefault01">First name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="validationDefault01"
-                    required
-                  />
-                </div>
-                </div>
-                <div class="form-row">
-                <div class="col-4">
-                  <label for="validationDefault02">Last name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="validationDefault02"
-                    required
-                  />
-                </div>
-                </div>
-              <div class="form-row">
-                <div class="col-4">
-                  <label for="validationDefault03">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="validationDefault03"
-                    required
-                  />
-                </div>
+    <!-- Email Form -->
+    <div class="container-fluid email">
+      <div class="row">
+        <div class="col-12">
+          <div id="emailme">
+            <h2>Email Me</h2>
+            <div class="form-row">
+              <div class="col-8">
+                <label for="validationDefault01">First name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault01"
+                  placeholder="First name"
+                  required
+                />
               </div>
-  </div>
-  </div>
-  </div>
-  
+            </div>
+            <div class="form-row">
+              <div class="col-8">
+                <label for="validationDefault02">Last name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault02"
+                  placeholder="Last name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-8">
+                <label for="validationDefault03">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="validationDefault03"
+                  placeholder="Email address"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row send">
+              <button class="btn btn-primary" type="submit" value="submit">
+                Send Email!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <footer></footer>
+    <footer></footer>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -168,8 +184,10 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvEwDg0hVK9kNNuuqKCYi3V9PDB3ZnuMs&callback=initMap">
-    </script>
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvEwDg0hVK9kNNuuqKCYi3V9PDB3ZnuMs&callback=initMap"
+    ></script>
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/notes.js"></script>
     <script src="assets/js/sendEmail.js"></script>
