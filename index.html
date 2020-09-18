@@ -42,9 +42,9 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#map">UK Dive Spots</a>
-              <a class="dropdown-item" href="#wishlist">Wish List</a>
+              <a class="dropdown-item" href="#wishList">Wish List</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#emailme">Email</a>
+              <a class="dropdown-item" href="#emailMe">Email</a>
             </div>
           </li>
         </ul>
@@ -57,8 +57,8 @@
           <h2 id="top">About</h2>
           <p>Click a map pin to discover a UK dive site!</p>
           <p>
-            Use the "Add to Wishlist" button to add the name and location of the
-            divesite to your list!
+            Use the "Wishlist" to add the name and location of the
+            divesite you want to visit to your list!
           </p>
           <p>
             Drop your email address into the "email me" form at the bottom of
@@ -68,35 +68,26 @@
       </div>
     </div>
     <!-- Google Map -->
-    <div class="row">
       <div class="col-12">
         <div id="map"></div>
       </div>
-    </div>
     <!-- Wish List -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 col-sm-12">
-          <div id="wishlist">
-            <h4>Wish List</h4>
-            <ul class="items">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
+        <div id="wishList">
+        <h4>Wish List</h4>
+        <ul></ul>
+        <div class="addLocation">
+        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+        <input type="text" id="location" placeholder="Add a location...">
+        </div>
+        </div>
         </div>
         <!-- Don't Forget! -->
         <div class="col-md-6 col-sm-12">
           <div id="dontforget">
-            <h4>Don't Forget!</h4>
+          <h4>Don't Forget!</h4>
             <ul class="items">
               <li>Fins</li>
               <li>Weights</li>
@@ -112,48 +103,50 @@
     <div class="container-fluid email">
       <div class="row">
         <div class="col-12">
-          <div id="emailme">
+          <div id="emailMe">
             <h2>Email Me</h2>
             <div class="form-row">
-              <div class="col-8">
-                <label for="validationDefault01">First name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="validationDefault01"
-                  placeholder="First name"
-                  required
-                />
+                <div class="col-auto">
+                  <label for="validationDefault01">First name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationDefault01"
+                    required
+                    placeholder="First name"
+                  />
+                </div>
               </div>
-            </div>
-            <div class="form-row">
-              <div class="col-8">
-                <label for="validationDefault02">Last name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="validationDefault02"
-                  placeholder="Last name"
-                  required
-                />
+              <div class="form-row">
+                <div class="col-auto">
+                  <label for="validationDefault02">Last name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationDefault02"
+                    required
+                    placeholder="Last name"
+                  />
+                </div>
               </div>
-            </div>
-            <div class="form-row">
-              <div class="col-8">
-                <label for="validationDefault03">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="validationDefault03"
-                  placeholder="Email address"
-                  required
-                />
+              <div class="form-row">
+                <div class="col-auto">
+                  <label for="validationDefault03">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="validationDefault03"
+                    required
+                    placeholder="Email address"
+                  />
+                </div>
               </div>
-            </div>
             <div class="form-row send">
+            <div class="col-12">
               <button class="btn btn-primary" type="submit" value="submit">
                 Send Email!
               </button>
+              </div>
             </div>
           </div>
         </div>
@@ -183,13 +176,19 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
     <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
     <script
       defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvEwDg0hVK9kNNuuqKCYi3V9PDB3ZnuMs&callback=initMap"
     ></script>
     <script src="assets/js/maps.js"></script>
-    <script src="assets/js/notes.js"></script>
+    <script src="assets/js/wishList.js"></script>
     <script src="assets/js/sendEmail.js"></script>
   </body>
 </html>

@@ -7,3 +7,4 @@ Javascript and JQuery by Jon Duckett - wish list add button/ wish list js
 https://www.redbull.com/gb-en/ten-best-scuba-diving-locations-in-uk - divesite info
 https://unsplash.com/ - images
 https://www.pexels.com/ - images
+https://fontawesome.com/ - font awesome

@@ -38,7 +38,7 @@ div#map {
 }
 
 /* Wish List and Don't Forget*/
-#wishlist,
+#wishList,
 #dontforget {
     min-height: 300px;
     border: 2px #14213d solid;
@@ -66,7 +66,7 @@ h4 {
 }
 
 /* Email */
-#emailme {
+#emailMe {
     background: url('../images/divers.jpeg') no-repeat top;
     background-size: 100%;
     margin-top: 20px;
