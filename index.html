@@ -75,15 +75,17 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 col-sm-12">
-            <div id="wishList">
+            <div id="wishList" class="center-form">
         <h4>Wish List</h4>
-        <form id="wishListForm">
-        <input id="wishListInput">
-        <button class="btn btn-primary" type="button" onclick="addLocation()">Add to Wish List</button>
-        <button class="btn btn-primary" type="button" onclick="removeLocation()">Remove Last Location</button>
+        <form>
+        <input type="text" class="todo-input">
+        <button class="todo-button" type="submit"><i class="fas fa-plus-square"></i>
+        </button>
         </form>
-        <ol id="locations">
-        </ol>
+        <div class="todo-container">
+        <ul class="todo-list">
+        </ul>
+        </div>
             </div>
             </div>
         <!-- Don't Forget! -->
@@ -145,7 +147,7 @@
               </div>
             <div class="form-row send">
             <div class="col-12">
-              <button class="btn btn-primary" type="submit" value="submit">
+              <button id="sendEmail" class="btn btn-primary" type="submit" value="submit">
                 Send Email!
               </button>
               </div>

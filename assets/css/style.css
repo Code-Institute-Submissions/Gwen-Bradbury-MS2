@@ -59,10 +59,16 @@ h4 {
     color: #e5e5e5;
 }
 
+#locations,
 .items {
     padding-top: 5px;
     font-size: 150%;
     list-style: none;
+}
+
+.fa-trash,
+.fa-check {
+    pointer-events: none;
 }
 
 /* Email */
@@ -79,3 +85,4 @@ h4 {
 .send {
     padding-top: 20px;
 }
+
