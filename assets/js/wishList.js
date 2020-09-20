@@ -17,10 +17,7 @@ newTodo.innerText = todoInput.value;
 newTodo.classList.add('todo-item');
 todoDiv.appendChild(newTodo);
 
-let completedButton = document.createElement('button');
-completedButton.innerHTML = '<i class="fas fa-check"></i>';
-completedButton.classList.add("complete-btn");
-todoDiv.appendChild(completedButton);
+
 
 let trashButton = document.createElement('button');
 trashButton.innerHTML = '<i class="fas fa-trash"></i>';
