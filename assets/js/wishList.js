@@ -3,7 +3,7 @@ let todoButton = document.querySelector('.todo-button');
 let todoList = document.querySelector('.todo-list');
 
 todoButton.addEventListener('click', addTodo);
-todoList.addEventListener('click', deleteCheck);
+todoList.addEventListener('click', removeLocation);
 
 function addTodo(event) {
 
@@ -27,7 +27,7 @@ todoList.appendChild(todoDiv);
 todoInput.value = "";
 }
 
-function deleteCheck(e) {
+function removeLocation(e) {
     let item = e.target;
     if(item.classList[0] === 'trash-btn') {
         let todo = item.parentElement;

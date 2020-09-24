@@ -61,13 +61,21 @@ function initMap() {
                 map: map,
               });
 
-                  let infowindow = new google.maps.InfoWindow({
+              let prev_infoWindow =false;
+
+                  let infoWindow = new google.maps.InfoWindow({
         content: props.content
         });
 
         marker.addListener('click', function() {
-                  infowindow.open(map, marker);
 
-        });
-      };
-    };
+            if( prev_infoWindow ) {
+           prev_infoWindow.close();
+        }
+
+       prev_infoWindow = infoWindow;
+        infoWindow.open(map, marker);
+    });
+                  
+};
+};

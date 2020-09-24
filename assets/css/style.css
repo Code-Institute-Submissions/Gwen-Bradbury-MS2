@@ -1,10 +1,25 @@
-/* Headings*/
+/* Headings and borders */
 h4 {
     background-color: #14213d;
     color: #e5e5e5;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+h2,
+p {
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+#map,
+#wishList,
+#dontforget {
+    border: 2px solid #14213d;
 }
 
 /* Navbar */
@@ -30,28 +45,18 @@ nav {
     font-size: 100%;
 }
 
-h2,
-p {
-    padding-bottom: 10px;
-}
-
-h2 {
-    padding-top: 10px;
-}
-
 /* Map */
-div#map {
+#map {
     min-height: 360px;
-    margin: 20px;
-    border: 2px solid #14213d;
+    margin: 10px;
 }
 
 /* Wish List and Don't Forget*/
 #wishList,
 #dontforget {
     min-height: 300px;
-    border: 2px #14213d solid;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #dontforget {
@@ -60,7 +65,7 @@ div#map {
 }
 
 #wishList {
-    background-color: #1c20ee
+    background-color: #1c20ee;
 }
 
 .todo-item,
@@ -69,6 +74,7 @@ div#map {
     font-size: 150%;
     list-style: none;
     color: #e5e5e5;
+    text-align: center;
 }
 
 .fa-trash {
@@ -96,3 +102,10 @@ div#map {
     padding-top: 20px;
 }
 
+/* Footer */
+footer {
+    background-color: #14213d;
+    height: 30px;
+}
+
+infoWindow.open(map, marker);
