@@ -36,6 +36,11 @@ nav {
     color: #e5e5e5;
 }
 
+.dropdown {
+    background-color: #14213d;
+    color: #e5e5e5;
+}
+
 /* About */
 .about {
     color: #e5e5e5;
@@ -47,8 +52,8 @@ nav {
 
 /* Map */
 #map {
-    min-height: 360px;
     margin: 10px;
+    height: 60vh;
 }
 
 /* Wish List and Don't Forget*/
@@ -92,5 +97,3 @@ footer {
     background-color: #14213d;
     height: 30px;
 }
-
-infoWindow.open(map, marker);
