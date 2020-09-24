@@ -87,21 +87,6 @@ nav {
     color: #e5e5e5;
 }
 
-/* Email */
-#emailMe {
-    background: url('../images/divers.jpeg') no-repeat top;
-    background-size: 100%;
-    margin-top: 20px;
-    color: #e5e5e5;
-    font-size: 100%;
-    text-align: center;
-    padding: 10px;
-}
-
-.send {
-    padding-top: 20px;
-}
-
 /* Footer */
 footer {
     background-color: #14213d;
