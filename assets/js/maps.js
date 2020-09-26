@@ -56,12 +56,12 @@ function initMap() {
         }
 
         function setDivesite(props){ 
+            
             let marker = new google.maps.Marker({
                 position: props.coordinates,
                 map: map,
               });
 
-              let prev_infoWindow =false;
 
                   let infoWindow = new google.maps.InfoWindow({
         content: props.content
@@ -69,13 +69,16 @@ function initMap() {
 
         marker.addListener('click', function() {
 
-            if( prev_infoWindow ) {
-           prev_infoWindow.close();
+let openInfoWindow =false; 
+
+    google.maps.event.addListener(marker, 'click', function(){
+        if( openInfoWindow ) {
+           openInfoWindow.close();
         }
 
-       prev_infoWindow = infoWindow;
+       openInfoWindow = infoWindow;
         infoWindow.open(map, marker);
     });
-                  
-};
-};
+});
+}
+}
