@@ -82,6 +82,11 @@ nav {
     text-align: center;
 }
 
+.toto-item {
+    display: flex;
+    padding-left: 5px;
+}
+
 .fa-trash {
     pointer-events: none;
 }
