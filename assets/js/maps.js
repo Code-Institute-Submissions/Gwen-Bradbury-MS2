@@ -60,8 +60,8 @@ function initMap() {
             let marker = new google.maps.Marker({
                 position: props.coordinates,
                 map: map,
+                animation: google.maps.Animation.DROP
               });
-
 
                   let infoWindow = new google.maps.InfoWindow({
         content: props.content

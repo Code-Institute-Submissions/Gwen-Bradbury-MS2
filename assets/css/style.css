@@ -59,7 +59,7 @@ nav {
 /* Wish List and Don't Forget*/
 #wishList,
 #dontforget {
-    min-height: 300px;
+   min-height: 300px;
     text-align: center;
     margin-bottom: 10px;
 }
