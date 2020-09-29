@@ -73,7 +73,7 @@ nav {
     background-color: #1c20ee;
 }
 
-.todo-item,
+.location-item,
 .items {
     padding-top: 5px;
     font-size: 150%;
@@ -82,17 +82,12 @@ nav {
     text-align: center;
 }
 
-.toto-item {
-    display: flex;
-    padding-left: 5px;
-}
-
 .fa-trash {
     pointer-events: none;
 }
 
-.todo-button,
-.trash-btn {
+.location-button,
+.remove-btn {
     background-color: #14213d;
     color: #e5e5e5;
 }

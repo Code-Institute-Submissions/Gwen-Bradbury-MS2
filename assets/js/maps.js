@@ -5,7 +5,7 @@ function initMap() {
             center: {
                 lat: 51.5074,
                 lng: -0.1278
-            }  
+            }
         });
 
         let diveSite = [
@@ -56,29 +56,21 @@ function initMap() {
         }
 
         function setDivesite(props){ 
-            
             let marker = new google.maps.Marker({
                 position: props.coordinates,
                 map: map,
                 animation: google.maps.Animation.DROP
               });
-
+    
                   let infoWindow = new google.maps.InfoWindow({
         content: props.content
         });
 
         marker.addListener('click', function() {
-
-let openInfoWindow =false; 
-
-    google.maps.event.addListener(marker, 'click', function(){
-        if( openInfoWindow ) {
-           openInfoWindow.close();
-        }
-
-       openInfoWindow = infoWindow;
-        infoWindow.open(map, marker);
+        infoWindow.open(map, marker); 
+        map.addListener('click', function() {
+        infoWindow.close(map, marker); 
+        });
     });
-});
-}
-}
+        }
+    }

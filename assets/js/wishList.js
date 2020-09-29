@@ -1,88 +1,88 @@
-let todoInput = document.querySelector('.todo-input');
-let todoButton = document.querySelector('.todo-button');
-let todoList = document.querySelector('.todo-list');
+let locationInput = document.querySelector('.location-input');
+let locationButton = document.querySelector('.location-button');
+let locationList = document.querySelector('.location-list');
 
-document.addEventListener('DOMContentLoaded', getTodos);
-todoButton.addEventListener('click', addTodo);
-todoList.addEventListener('click', removeLocation);
+document.addEventListener('DOMContentLoaded', getLocations);
+locationButton.addEventListener('click', addLocation);
+locationList.addEventListener('click', removeLocation);
 
-function addTodo(event) {
+function addLocation(event) {
 
     event.preventDefault();
 
-    let todoDiv = document.createElement('div');
-    todoDiv.classList.add('todo');
+    let locationDiv = document.createElement('div');
+    locationDiv.classList.add('location');
 
-let newTodo = document.createElement('li');
-newTodo.innerText = todoInput.value;
-newTodo.classList.add('todo-item');
-todoDiv.appendChild(newTodo);
+let newLocation = document.createElement('li');
+newLocation.innerText = locationInput.value;
+newLocation.classList.add('location-item');
+locationDiv.appendChild(newLocation);
 
-saveLocalTodos(todoInput.value)
+saveLocalLocations(locationInput.value)
 
-let trashButton = document.createElement('button');
-trashButton.innerHTML = '<i class="fas fa-trash"></i>';
-trashButton.classList.add("trash-btn");
-todoDiv.appendChild(trashButton);
+let removeButton = document.createElement('button');
+removeButton.innerHTML = '<i class="fas fa-trash"></i>';
+removeButton.classList.add("remove-btn");
+locationDiv.appendChild(removeButton);
 
-todoList.appendChild(todoDiv);
+locationList.appendChild(locationDiv);
 
-todoInput.value = "";
+locationInput.value = "";
 }
 
 function removeLocation(e) {
     let item = e.target;
-    if(item.classList[0] === 'trash-btn') {
-        let todo = item.parentElement;
-        removeLocalTodos(todo);
-        todo.remove();
+    if(item.classList[0] === 'remove-btn') {
+        let location = item.parentElement;
+        removeLocalLocations(location);
+        location.remove();
     }
 }
 
-function saveLocalTodos(todo) {
-    let todos;
-    if(localStorage.getItem('todos') === null) {
-        todos = [];
+function saveLocalLocations(location) {
+    let locations;
+    if(localStorage.getItem('locations') === null) {
+        locations = [];
     }else{
-        todos = JSON.parse(localStorage.getItem('todos'));
+        locations = JSON.parse(localStorage.getItem('locations'));
     }
-    todos.push(todo);
-    localStorage.setItem("todos", JSON.stringify(todos));
+    locations.push(location);
+    localStorage.setItem("locations", JSON.stringify(locations));
 }
 
-function getTodos() {
-    let todos;
-    if(localStorage.getItem('todos') === null) {
-        todos = [];
+function getLocations() {
+    let locations;
+    if(localStorage.getItem('locations') === null) {
+        locations = [];
     }else{
-        todos = JSON.parse(localStorage.getItem('todos'));
+        locations = JSON.parse(localStorage.getItem('locations'));
     }
-    todos.forEach(function(todo) {
-         let todoDiv = document.createElement('div');
-    todoDiv.classList.add('todo');
+    locations.forEach(function(location) {
+         let locationDiv = document.createElement('div');
+    locationDiv.classList.add('location');
 
-let newTodo = document.createElement('li');
-newTodo.innerText = todo;
-newTodo.classList.add('todo-item');
-todoDiv.appendChild(newTodo);
+let newLocation = document.createElement('li');
+newLocation.innerText = location;
+newLocation.classList.add('location-item');
+locationDiv.appendChild(newLocation);
 
-let trashButton = document.createElement('button');
-trashButton.innerHTML = '<i class="fas fa-trash"></i>';
-trashButton.classList.add("trash-btn");
-todoDiv.appendChild(trashButton);
+let removeButton = document.createElement('button');
+removeButton.innerHTML = '<i class="fas fa-trash"></i>';
+removeButton.classList.add("remove-btn");
+locationDiv.appendChild(removeButton);
 
-todoList.appendChild(todoDiv);
+locationList.appendChild(locationDiv);
     });
 }
 
-function removeLocalTodos(todo) {
-    let todos;
-    if(localStorage.getItem('todos') === null) {
-        todos = [];
+function removeLocalLocations(location) {
+    let locations;
+    if(localStorage.getItem('locations') === null) {
+        locations = [];
     }else{
-        todos = JSON.parse(localStorage.getItem('todos'));
+        locations = JSON.parse(localStorage.getItem('locations'));
     }
-    let todoIndex = todo.children[0].innerText;
-    todos.splice(todos.indexOf(todoIndex), 1);
-    localStorage.setItem("todos", JSON.stringify(todos));
+    let locationIndex = location.children[0].innerText;
+    locations.splice(locations.indexOf(locationIndex), 1);
+    localStorage.setItem("locations", JSON.stringify(locations));
 }
