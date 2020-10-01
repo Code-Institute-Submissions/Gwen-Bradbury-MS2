@@ -62,9 +62,9 @@ function initMap() {
 
   let infoWindow = new google.maps.InfoWindow();
 
- for (let i = 0; i < diveSite.length; i++){
+  for (let i = 0; i < diveSite.length; i++){
       setDivesite(diveSite[i])
-
+  }
         function setDivesite(props){
 
           let marker = new google.maps.Marker({
@@ -73,12 +73,12 @@ function initMap() {
                animation: google.maps.Animation.DROP
              });
 
-        infoWindow.setContent(props.content)
-
-marker.addListener('click', function() {
+marker.addListener('click', function() {    
+infoWindow.setContent(props.content)
 infoWindow.open(map, marker);
 });
 
 };
 };
-};
+ 
+
