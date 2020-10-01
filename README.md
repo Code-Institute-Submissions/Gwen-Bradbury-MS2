@@ -74,27 +74,27 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 
  ## Testing.
 
- 1.  http://ami.responsivedesign.is/  has been used to see how the site performs on different Apple devices and their viewports, all pages, links, icons performed as expected on all devices. I also used it to create the AppleDevicesView.png at the top of this Readme.
+ 1.  http://ami.responsivedesign.is/  has been used to see how the site performs on different Apple devices and their viewports, all links, icons performed as expected on all devices. I also used it to create the AppleDevicesView.png at the top of this Readme.
 
  2.  **Laptop**
      
-      * Google Chrome browser; all pages, links on those pages and footer icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.
+      * Google Chrome browser; all feature links and icons perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.
 
  3.  **Mobile**
 
-      * Safari browser; all pages, links on those pages and footer icon links perform well.
+      * Safari browser; all feature links and icons perform well.
 
  4.  **Ipad Pro**
 
-      * Safari browser; all pages, links on those pages and footer icon links perform as they should.
+      * Safari browser; all feature links and icons perform as they should.
 
 ![Apple Devices picture](./wireframes/)
 
  5. **Desktop**
 
-      * Google Chrome browser; all pages, links on those pages and footer icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.
-      * Internet Edge; all pages, links on those pages and footer icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.
-      * Mozilla Firefox; all pages, links on those pages and footer icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.        
+      * Google Chrome browser; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.
+      * Internet Edge; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.
+      * Mozilla Firefox; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.        
 
  7.  **Open Issues:** 
 
