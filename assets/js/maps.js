@@ -62,18 +62,23 @@ function initMap() {
 
   let infoWindow = new google.maps.InfoWindow();
 
-  let marker = new google.maps.Marker();
+ for (let i = 0; i < diveSite.length; i++){
+      setDivesite(diveSite[i])
 
-   for (let i = 0; i < diveSite.length; i++){
+        function setDivesite(props){
 
-    marker.addListener("click", function() {
-       new google.maps.Marker({
-        position: coordinates,
-        map: map,
-       animation: google.maps.Animation.DROP,
-       })
-      infoWindow.setContent(diveSite[i]),
-     infoWindow.open(map, marker)
-      });
-    }
-}
+          let marker = new google.maps.Marker({
+               position: props.coordinates,
+               map: map,
+               animation: google.maps.Animation.DROP
+             });
+
+        infoWindow.setContent(props.content)
+
+marker.addListener('click', function() {
+infoWindow.open(map, marker);
+});
+
+};
+};
+};

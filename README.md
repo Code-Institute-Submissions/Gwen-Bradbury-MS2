@@ -132,7 +132,7 @@ To continue with cloning, you would;
 
 ### Acknowledgements-
 
-1. My mentor Adegbenga for his help and many other pieces of advice alongside motivation to get me through.`
+1. My mentor Adegbenga for his help and many other pieces of advice alongside motivation to get me through.
 
 2. Code Institute's Slack Channels and the many alunni, mentors, tutors and users who contribute to them; the many pinned announcements, pdf files, etc. were of great help, as was the advice and motivation
 given by the many members. https://app.slack.com/client/T0L30B202/C0L316Z96
