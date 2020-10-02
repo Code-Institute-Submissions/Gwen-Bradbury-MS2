@@ -58,7 +58,7 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 
 * _Wish List_ - This section allows the user to make a list of the dive sites they may wish to visit, and stores the list to local storage, allowing them to leave and return to the page without having to rewrite it. 
 
-* _Don't Forget_ - This list is a reminder to the user to remember some of the more commonly forgotten peices of diving equipment.
+* _Don't Forget_ - A list that reminds the user to remember some of the more commonly forgotten peices of diving equipment.
 
 ## Technologies Used.
 
@@ -68,7 +68,7 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 2. **CSS, or Cascading Style Sheets:**  Used to style the various elements on the web page via coloring, fonts, spacing, etc.  For further info, see this link;
  https://www.w3.org/Style/CSS/Overview.en.html
 
-3. **Javascript:** 
+3. **Javascript:** A programming language used alongside the google maps api to create the markers and info windows inside the map, and to code the wish list section.
 
 4. **Bootstrap:**  A CSS framework that assists the programmer in creating responsive, mobile first front-end web sites. https://getbootstrap.com/
 
@@ -109,6 +109,8 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
       * Internet Edge; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.
       * Mozilla Firefox; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.        
 
+ 6. **Jasmine**
+
  7.  **Open Issues:** 
 
       *    
@@ -116,7 +118,7 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
  ## Deployment.
 
 1. Created a Github account at https://github.com
-  My account url;    https://github.com/Gwen-Bradbury
+   My account url;    https://github.com/Gwen-Bradbury
 
 2. I uploaded all files to my Github repository located at this url; https://github.com/Gwen-Bradbury/MS2  which is for this individual project.
 
@@ -124,9 +126,9 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
    Your site is published at https://gwen-bradbury.github.io/MS2/
 
 4.  To run this code on your local machine, you would go to my respository at 
-https://github.com/Gwen-Bradbury/MS2  and on the home page on the right hand side just above all the files, you will see a green button that says,
-"Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file.
-To continue with cloning, you would;
+    https://github.com/Gwen-Bradbury/MS2  and on the home page on the right hand side just above all the files, you will see a green button that says,
+   "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file.
+   To continue with cloning, you would;
   * Open Git Bash
   * Change the current working directory to the location where you want the cloned directory to be made.
   * Type git clone, and then paste this URL; https://github.com/Gwen-Bradbury/MS2.git      Press Enter. Your local clone will be created.
