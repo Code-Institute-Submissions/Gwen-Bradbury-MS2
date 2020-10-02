@@ -118,41 +118,41 @@ To continue with cloning, you would;
   * Change the current working directory to the location where you want the cloned directory to be made.
   * Type git clone, and then paste this URL; https://github.com/Gwen-Bradbury/MS2.git      Press Enter. Your local clone will be created.
 
-  For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 ## Credits.
 
 ### Content-
 
-1. https://getbootstrap.com/docs/4.4/components/navbar/ - navbar
+1. Navbar taken from bootstrap. https://getbootstrap.com/docs/4.4/components/navbar/ 
 
-2. https://developers.google.com/maps/documentation/javascript/infowindows - map markers and info windows
+2. Google documentation for the info windows and map https://developers.google.com/maps/documentation/javascript/infowindows 
 
-3. https://m.youtube.com/watch?v=Zxf1mnP5zcw - Google maps JS API tutorial - map markers and info windows
+3. A google maps tutorial that I used to help code my info windows and markers https://m.youtube.com/watch?v=Zxf1mnP5zcw 
 
-4. https://m.youtube.com/watch?v=Ttf3CEsEwMQ - To do list tutorial - Wish List js
+4. A to do list tutorial that I used to help code my wish list https://m.youtube.com/watch?v=Ttf3CEsEwMQ 
 
-5. CI Interactive front end API section - Google Maps API
+5. Implemnting the google maps API CI Interactive front end API section (https://codeinstitute.net/)
 
-6. Javascript and JQuery by Jon Duckett - wish list js
+6. For help with understanding javascript Javascript and JQuery by Jon Duckett
 
-7. stack overflow
+7. For help with the google maps pins and info windows stack overflow 
 
-8. https://www.redbull.com/gb-en/ten-best-scuba-diving-locations-in-uk - divesite info
+8. Information on the divesites https://www.redbull.com/gb-en/ten-best-scuba-diving-locations-in-uk
 
-9. https://app.lucidchart.com - wireframes
+9. Wireframes https://app.lucidchart.com 
 
-10. https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
+10. Colour scheme https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff 
 
 ### Media-
 
 1. Contents table in README.md from http://ecotrust-canada.github.io/markdown-toc/
 
-2. https://fontawesome.com/ - font awesome
+2. Font Awesome for the trash and add icons in wish list section https://fontawesome.com/
 
-3. https://unsplash.com/ - images
+3. Background images https://unsplash.com/ 
 
-4. https://www.pexels.com/ - images
+4. Background images https://www.pexels.com/
 
 5. Am I Responsive web site for checking responsiveness on all Apple devices screen sizes;
    http://ami.responsivedesign.is/
