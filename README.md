@@ -46,15 +46,19 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 
 ### Exsisting Features-
 
-* _Google Map_ - 
+* _Navbar_ - Holds the name of the page and links that will take the user to specific sections of the page when clicked.
 
-* _Information Windows_ -
+* _About Section_ - An introduction to what my site is about and instructions on how to use the features implemented within it.
 
-* _Wish List_ - 
+* _Google Map_ - A familiar google map with markers positioned on the locations of the different dive sites.
 
-* _Don't Forget_ -
+* _Information Windows_ - Information windows which open when a dive site marker is clicked. They contain information on the dive site and a link to the website of a dive company that runs dives in that area.
 
-* _Nav Bar_ -
+* _Links_ - The links in the information window take the user to the dive companys website which will load on a seperate browser tab.
+
+* _Wish List_ - This section allows the user to make a list of the dive sites they may wish to visit, and stores the list to local storage, allowing them to leave and return to the page without having to rewrite it. 
+
+* _Don't Forget_ - This list is a reminder to the user to remember some of the more commonly forgotten peices of diving equipment.
 
 ## Technologies Used.
 
