@@ -124,11 +124,40 @@ To continue with cloning, you would;
 
 ### Content-
 
-1. 
+1. https://getbootstrap.com/docs/4.4/components/navbar/ - navbar
+
+2. https://developers.google.com/maps/documentation/javascript/infowindows - map markers and info windows
+
+3. https://m.youtube.com/watch?v=Zxf1mnP5zcw - Google maps JS API tutorial - map markers and info windows
+
+4. https://m.youtube.com/watch?v=Ttf3CEsEwMQ - To do list tutorial - Wish List js
+
+5. CI Interactive front end API section - Google Maps API
+
+6. Javascript and JQuery by Jon Duckett - wish list js
+
+7. stack overflow
+
+8. https://www.redbull.com/gb-en/ten-best-scuba-diving-locations-in-uk - divesite info
+
+9. https://app.lucidchart.com - wireframes
+
+10. https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 
 ### Media-
 
-1. 
+1. Contents table in README.md from http://ecotrust-canada.github.io/markdown-toc/
+
+2. https://fontawesome.com/ - font awesome
+
+3. https://unsplash.com/ - images
+
+4. https://www.pexels.com/ - images
+
+5. Am I Responsive web site for checking responsiveness on all Apple devices screen sizes;
+   http://ami.responsivedesign.is/
+
+6. Code Institues tutorial videos (https://codeinstitute.net/)
 
 ### Acknowledgements-
 
@@ -139,15 +168,3 @@ given by the many members. https://app.slack.com/client/T0L30B202/C0L316Z96
 
 3. The amazing Code Institute Tutors.
 
-https://app.lucidchart.com - wireframes
-https://getbootstrap.com/docs/4.4/components/navbar/ - navbar
-https://developers.google.com/maps/documentation/javascript/infowindows - map markers and info windows
-https://m.youtube.com/watch?v=Zxf1mnP5zcw - Google maps JS API tutorial - map markers and info windows
-Javascript and JQuery by Jon Duckett - wish list js
-https://www.redbull.com/gb-en/ten-best-scuba-diving-locations-in-uk - divesite info
-https://unsplash.com/ - images
-https://www.pexels.com/ - images
-https://fontawesome.com/ - font awesome
- https://m.youtube.com/watch?v=Ttf3CEsEwMQ - To do list tutorial - Wish List js
-CI Interactive front end API section - Google Maps API
-stack overflow

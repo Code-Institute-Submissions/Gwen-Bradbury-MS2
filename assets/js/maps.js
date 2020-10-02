@@ -71,7 +71,7 @@ function initMap() {
                position: props.coordinates,
                map: map,
                animation: google.maps.Animation.DROP
-             });
+          })
 
 marker.addListener('click', function() {    
 infoWindow.setContent(props.content)
@@ -80,5 +80,4 @@ infoWindow.open(map, marker);
 
 };
 };
- 
 
