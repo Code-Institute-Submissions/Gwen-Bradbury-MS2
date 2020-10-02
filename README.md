@@ -29,9 +29,18 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 
 #### User Stories-
 
-* 
-* 
-* 
+* As a diver, I want to find new dive sites quickly and easily, and have information on that dive site accessable in an easy to read and understand formatt.
+  The about section in index.html tells the user how to use the page and google map to meet thier needs quickly and efficiently.
+  The google map markers have been placed on the map on the location of the dive site and, when clicked will open an info window containing relevent information about that particular dive site,
+   along with a link to a dive company that runs dives in that area.
+
+* As an employer/recruiter, I need to see and review the skills and work capabilities, and analyze if you have the skills we require. In this website I've used many user-friendly features to showcase my skills as a developer.
+  From the layout and colour scheme to the info windows within the google map, every implemented piece of code has been built to make the site as appealing and easy to use for customers as possible. 
+  Possible employers will be able to see from the website and the features implemented that my standard of work is very high, and my capabilities reflect my current skillset, which will improve as I gain more knowledge moving through 
+  the Code Institute Full Stack Developer course.
+
+* On our Human Resources team, we look for the information that pertains to the specific needs of the company, and does this individual have those skill sets. My skill sets are evidenced in the website produced. I've used a wide range of HTML, CSS and javascript to 
+  develop this site, as well as technologies such as bootstrap for responsiveness.
 
 ## Features.
 
@@ -49,7 +58,7 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 
 ## Technologies Used.
 
-1. **HTML, or Hyper Text Markup Language:**  Used to construct the page withn this web site.  For further info on this language;   
+1. **HTML, or Hyper Text Markup Language:**  Used to construct the page withn this web site.  For further info on this language, see this link;   
  https://developer.mozilla.org/en-US/docs/Web/HTML
 
 2. **CSS, or Cascading Style Sheets:**  Used to style the various elements on the web page via coloring, fonts, spacing, etc.  For further info, see this link;

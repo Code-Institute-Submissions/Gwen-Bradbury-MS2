@@ -23,21 +23,13 @@ h2 {
 }
 
 /* Navbar */
-nav {
+.nav-link,
+.navbar {
   background-color: #14213d;
   color: #e5e5e5;
 }
 
-.navbar-toggler-icon {
-    color: #e5e5e5;
-}
-
-.nav-link {
-    color: #e5e5e5;
-}
-
-.dropdown {
-    background-color: #14213d;
+#nav-icon {
     color: #e5e5e5;
 }
 
