@@ -71,7 +71,7 @@ h2 {
 }
 
 /* Carousel */
-.carousel {
+#carousel {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -124,7 +124,7 @@ h2 {
 }
 
 /* About */
-.about {
+#about {
     color: #e5e5e5;
     background:  url('../images/about.jpeg') no-repeat center;
     background-size: cover;
