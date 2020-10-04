@@ -29,6 +29,10 @@ h2 {
   color: #e5e5e5;
 }
 
+.navbar-toggler {
+    outline: none;
+}
+
 #nav-icon {
     color: #e5e5e5;
 }
@@ -78,8 +82,8 @@ h2 {
 
 .location-list,
 .location-item {
-    display: inline;
-    list-style-type: decimal;
+   list-style-type: decimal;
+   display: inline-block;
 }
 
 .fa-trash {
@@ -93,7 +97,7 @@ h2 {
 }
 
 .remove-btn {
-    margin: 5px;
+   margin: 5px;
 }
 
 /* Footer */

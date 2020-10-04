@@ -65,6 +65,7 @@ function initMap() {
   for (let i = 0; i < diveSite.length; i++) {
     setDivesite(diveSite[i]);
   }
+  
   function setDivesite(props) {
     let marker = new google.maps.Marker({
       position: props.coordinates,

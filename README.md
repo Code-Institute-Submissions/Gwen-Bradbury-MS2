@@ -129,9 +129,9 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
     https://github.com/Gwen-Bradbury/MS2  and on the home page on the right hand side just above all the files, you will see a green button that says,
    "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file.
    To continue with cloning, you would;
-  * Open Git Bash
-  * Change the current working directory to the location where you want the cloned directory to be made.
-  * Type git clone, and then paste this URL; https://github.com/Gwen-Bradbury/MS2.git      Press Enter. Your local clone will be created.
+    * Open Git Bash
+    * Change the current working directory to the location where you want the cloned directory to be made.
+    * Type git clone, and then paste this URL; https://github.com/Gwen-Bradbury/MS2.git      Press Enter. Your local clone will be created.
 
 For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
@@ -158,6 +158,11 @@ For more information about the above process; https://help.github.com/en/github/
 9. Wireframes https://app.lucidchart.com 
 
 10. Colour scheme https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff 
+
+11. Slider tutorials that I used to understand how to make an image slideshow (carousel)-
+   * https://www.youtube.com/watch?v=mngeB-2Cjqg - automatic carousel tutorial 
+   * https://www.youtube.com/watch?v=4YQ4svkETS0 - simple slide show Traversy Media 
+   * https://www.youtube.com/watch?v=wWWNrANNO1k - Traversy Media responsive slide show 
 
 ### Media-
 
