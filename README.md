@@ -161,8 +161,9 @@ For more information about the above process; https://help.github.com/en/github/
 
 11. Slider tutorials that I used to understand how to make an image slideshow (carousel)-
    * https://www.youtube.com/watch?v=mngeB-2Cjqg - automatic carousel tutorial 
-   * https://www.youtube.com/watch?v=4YQ4svkETS0 - simple slide show Traversy Media 
+   * https://www.youtube.com/watch?v=4YQ4svkETS0 - Traversy Media simple slide show
    * https://www.youtube.com/watch?v=wWWNrANNO1k - Traversy Media responsive slide show 
+   * https://www.youtube.com/watch?v=7ZO2RTMNSAY&t=150s - Travsery Media image slider tutorial
 
 ### Media-
 
