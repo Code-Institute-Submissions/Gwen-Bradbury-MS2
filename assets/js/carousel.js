@@ -1,38 +1,34 @@
 let i = 0;
 let time = 4000;
-
 let images = [
 {
-  content: '../images/coral.jpg'
+  content: 'assets/images/coral.jpg'
 },
 {
-   content: '../images/ray.jpg'
+   content: 'assets/images/ray.jpg'
 },
 {
-   content: '../images/seal.jpg'
+   content: 'assets/images/seal.jpg'
 },
 {
-    content: '../images/shark.jpg'
+    content: 'assets/images/sharks.jpg'
 },
 {
-   content: '../images/shoal.jpg'
+   content: 'assets/images/shoal.jpg'
 },
 {
-   content: '../images/singlefish.jpg'
-},
-{
-   content: '../images/turtle.jpg'
+   content: 'assets/images/singlefish.jpg'
 }
 ]
 
 function carousel() {
-    document.querySelector('.image').alt = images[i].content;
-    if (i < images.length -1){
-    i++;
-    }else{
-        i = 0;
+    document.querySelector('.image').src = images[i].content;
+    if (i < images.length -1 ){
+    	i++;
     }
-    setTimeout(carousel, time);
+    else{
+    	i = 0;
+    } 
+    setTimeout(carousel,time);
 }
-
 window.onload = carousel();
