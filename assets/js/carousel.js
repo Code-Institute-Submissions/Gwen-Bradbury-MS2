@@ -1,51 +1,38 @@
-let slides = document.querySelectorAll('.slide');
-let next = document.querySelector('#next')
-let prev = document.querySelector('#prev')
-let auto = true;
-let intervalTime = 4000;
-let slideInterval;
+let i = 0;
+let time = 4000;
 
-function nextSlide() {
-    let current = document.querySelector('.current');
-    current.classList.remove('current');
-    if(current.nextElementSibling) {
-        current.nextElementSibling.classList.add('current');
+let images = [
+{
+  content: '../images/coral.jpg'
+},
+{
+   content: '../images/ray.jpg'
+},
+{
+   content: '../images/seal.jpg'
+},
+{
+    content: '../images/shark.jpg'
+},
+{
+   content: '../images/shoal.jpg'
+},
+{
+   content: '../images/singlefish.jpg'
+},
+{
+   content: '../images/turtle.jpg'
+}
+]
+
+function carousel() {
+    document.querySelector('.image').alt = images[i].content;
+    if (i < images.length -1){
+    i++;
     }else{
-        slides[0].classList.add('current');
+        i = 0;
     }
-    setTimeout(function() {
-        current.classList.remove('current')
-    })
+    setTimeout(carousel, time);
 }
 
-function prevSlide() {
-    let current = document.querySelector('.current');
-    current.classList.remove('current');
-    if(current.previousElementSibling) {
-        current.previousElementSibling.classList.add('current');
-    }else{
-        slides[slides.length -1].classList.add('current');
-    }
-    setTimeout(function() {
-        current.classList.remove('current')
-    }) 
-} 200,
-
-next.addEventListener('click', function() {
-    nextSlide();
-    if(auto) {
-        clearInterval(slideInterval);
-        slideInterval = setInterval(nextSlide, intervalTime);
-    }
-});
-prev.addEventListener('click', function() {
-    prevSlide();
-    if(auto) {
-        clearInterval(slideInterval);
-        slideInterval = setInterval(nextSlide, intervalTime);
-    }
-});
-
-if(auto) {
-    slideInterval = setInterval(nextSlide, intervalTime);
-}
+window.onload = carousel();

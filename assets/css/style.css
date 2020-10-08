@@ -1,58 +1,58 @@
 /* Headings and borders */
 h4 {
-    background-color: #14213d;
-    color: #e5e5e5;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-color: #14213d;
+  color: #e5e5e5;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 h2,
 p {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 h2 {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 #map,
 #wishList,
 #dontforget {
-    border: 2px solid #14213d;
+  border: 2px solid #14213d;
 }
 
 /* Buttons */
 #prev,
 #next {
-    position: absolute;
-    top: 50%;
-    background-color: #14213d;
-    color: #e5e5e5;
-    outline: none;
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  background-color: #14213d;
+  color: #e5e5e5;
+  outline: none;
+  cursor: pointer;
 }
 
 #next {
-    right: 25px;
+  right: 25px;
 }
 
 #prev {
-    left: 25px;
+  left: 25px;
 }
 
 .fa-trash {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 .location-button,
 .remove-btn {
-    background-color: #14213d;
-    color: #e5e5e5;
+  background-color: #14213d;
+  color: #e5e5e5;
 }
 
 .remove-btn {
-   margin: 5px;
+  margin: 5px;
 }
 
 /* Navbar */
@@ -62,121 +62,79 @@ h2 {
   color: #e5e5e5;
 }
 
-.navbar-toggler {
+button.navbar-toggler.collapsed {
     outline: none;
+    color: #e5e5e5; 
 }
 
 #nav-icon {
-    color: #e5e5e5;
+  color: #e5e5e5;
 }
 
 /* Carousel */
 #carousel {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    margin-top: 10px;
-    padding: 0;
-}
-
-.slide {
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
+    height: 80vh;
     width: 100%;
-    height: 100%;
-    transition: opacity 1s ease-in-out;  
 }
 
-.current {
-    opacity: 1;
-}
-
-/* Carousel Images */
-
-.slide:first-child {
-    background: url('../images/coral.jpg') no-repeat center;
-}
-
-.slide:nth-child(2) {
-    background: url('../images/ray.jpg') no-repeat center;
-}
-
-.slide:nth-child(3) {
-    background: url('../images/seal.jpg') no-repeat center;
-}
-
-.slide:nth-child(4) {
-    background: url('../images/shark.jpg') no-repeat center;
-}
-
-.slide:nth-child(5) {
-    background: url('../images/shoal.jpg') no-repeat center;
-}
-
-.slide:nth-child(6) {
-    background: url('../images/singlefish.jpg') no-repeat center;
-}
-
-.slide:nth-child(7) {
-    background: url('../images/turtle.jpg') no-repeat center;
+.image {
+    background-size: contain;
 }
 
 /* About */
 #about {
-    color: #e5e5e5;
-    background:  url('../images/about.jpeg') no-repeat center;
-    background-size: cover;
-    text-align: center; 
-    font-size: 100%;
-    margin-top: 10px;
+  color: #e5e5e5;
+  background: url("../images/about.jpeg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  font-size: 100%;
+  margin-top: 10px;
 }
 
 /* Map */
 #map {
-    margin: 0 10px 10px 10px;
-    height: 80vh;
+  margin: 0 10px 10px 10px;
+  height: 90vh;
 }
 
 /* Wish List and Don't Forget*/
 #wishList,
 #dontforget {
-    min-height: 300px;
-    text-align: center;
-    margin-bottom: 10px;
+  min-height: 300px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 #dontforget {
-    background:  url('../images/dontforget.jpeg') no-repeat center;
-    background-size: 100%;
+  background: url("../images/dontforget.jpeg") no-repeat center;
+  background-size: cover;
 }
 
 #wishList {
-    background-color: #1c20ee;
+  background-color: #1c20ee;
 }
 
 .location-item,
 .items {
-    padding-top: 10px;
-    font-size: 150%;
-    color: #e5e5e5;
+  padding-top: 10px;
+  font-size: 150%;
+  color: #e5e5e5;
 }
 
 .items {
-    list-style: none;
+  list-style: none;
 }
 
 .location-list,
 .location-item {
-   list-style-type: decimal;
-   display: inline-flex;
-   flex-direction: column;
-   margin-right: 5px;
+  list-style-type: decimal;
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 5px;
 }
 
 /* Footer */
 footer {
-    background-color: #14213d;
-    height: 30px;
+  background-color: #14213d;
+  height: 30px;
 }

@@ -6,14 +6,14 @@ document.addEventListener("DOMContentLoaded", getLocations);
 locationButton.addEventListener("click", addLocation);
 locationList.addEventListener("click", removeLocation);
 
-locationInput.placeholder="Add A Location...";
+locationInput.placeholder = "Add A Location...";
 
 function addLocation(event) {
   event.preventDefault();
 
   let locationDiv = document.createElement("div");
   locationDiv.classList.add("location");
-  locationDiv.required
+  locationDiv.required;
 
   let newLocation = document.createElement("li");
   newLocation.innerText = locationInput.value;
