@@ -23,6 +23,8 @@ will give them the motivation towards getting into the water more often and divi
 
 ![Wireframe picture](./wireframes/MS2.jpeg)
 
+The carousel of images was added as my mentor wanted to bulk out the project and make it a better portfollio piece.
+
 #### Colour Palette-
 
 https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff

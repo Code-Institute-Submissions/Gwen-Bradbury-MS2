@@ -56,25 +56,25 @@ h2 {
 }
 
 /* Navbar */
-.nav-link,
-.navbar {
+.navbar,
+.navbar a {
   background-color: #14213d;
   color: #e5e5e5;
 }
 
-button.navbar-toggler.collapsed {
-    outline: none;
-    color: #e5e5e5; 
+.navbar a:hover {
+    color: #1c20ee;
+    background-color: #14213d;
 }
 
-#nav-icon {
-  color: #e5e5e5;
+.dropdown-menu.show {
+    padding: 0;
 }
 
 /* carousel */
 .image {
     position: relative;
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     object-fit: cover;
 }
@@ -92,7 +92,7 @@ button.navbar-toggler.collapsed {
 /* Map */
 #map {
   margin: 0 10px 10px 10px;
-  height: 90vh;
+  height: 80vh;
 }
 
 /* Wish List and Don't Forget*/

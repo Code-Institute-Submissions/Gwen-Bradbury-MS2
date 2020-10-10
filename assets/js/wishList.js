@@ -13,7 +13,7 @@ function addLocation(event) {
 
   let locationDiv = document.createElement("div");
   locationDiv.classList.add("location");
-  locationDiv.required;
+  document.querySelector(".location").required = true;
 
   let newLocation = document.createElement("li");
   newLocation.innerText = locationInput.value;
