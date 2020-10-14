@@ -15,11 +15,10 @@ p {
 h2 {
   padding-top: 20px;
   text-decoration: underline; 
+  text-align: center;
 }
 
 .wishListHeading {
-    text-align: center;
-    padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -88,7 +87,7 @@ h2 {
 /* Wish List and Don't Forget*/
 #wishList,
 #dontforget {
-  height: 50vh;
+  height: 60vh;
   text-align: center;
   margin-bottom: 10px;
   background-color: #f8d59c;
@@ -103,6 +102,10 @@ h2 {
 .items {
   list-style: none;
   padding-top: 20px;
+}
+
+.items li {
+    padding: 10px 10px 10px 10px;
 }
 
 .location-list,
