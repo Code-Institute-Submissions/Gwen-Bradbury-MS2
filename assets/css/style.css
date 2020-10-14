@@ -7,21 +7,19 @@ h4 {
   padding-bottom: 10px;
 }
 
-h2,
 p {
-  padding-bottom: 10px;
-}
-
-h2 {
-  padding-top: 20px;
-  text-decoration: underline; 
+  padding-bottom: 20px;
   text-align: center;
 }
 
-.wishListHeading {
-    padding-bottom: 20px;
+h2 {
     margin-top: 30px;
     margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: underline; 
+  text-align: center;
+  color: #14213d;
 }
 
 #map,
@@ -71,25 +69,25 @@ h2 {
     object-fit: cover;
 }
 
-/* About */
-#about {
-  color: #14213d;
-  text-align: center;
-  margin-top: 30px;
+/* Benefits */
+img {
+    width: 100%;
+    height: auto;
 }
 
 /* Map */
 #map {
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 20px 10px;
   height: 50vh;
 }
 
 /* Wish List and Don't Forget*/
 #wishList,
 #dontforget {
-  height: 60vh;
+  min-height: 60vh;
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 10px;
   background-color: #f8d59c;
   color: #14213d;
 }
@@ -101,9 +99,10 @@ h2 {
 
 .items {
   list-style: none;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
+#benefits li,
 .items li {
     padding: 10px 10px 10px 10px;
 }
