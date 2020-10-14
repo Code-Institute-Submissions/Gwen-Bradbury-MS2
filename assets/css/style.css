@@ -13,7 +13,16 @@ p {
 }
 
 h2 {
-  padding-top: 30px;
+  padding-top: 20px;
+  text-decoration: underline; 
+}
+
+.wishListHeading {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #map,
@@ -23,23 +32,6 @@ h2 {
 }
 
 /* Buttons */
-#prev,
-#next {
-  position: absolute;
-  top: 50%;
-  background-color: #14213d;
-  color: #e5e5e5;
-  outline: none;
-  cursor: pointer;
-}
-
-#next {
-  right: 25px;
-}
-
-#prev {
-  left: 25px;
-}
 
 .fa-trash {
   pointer-events: none;
@@ -63,9 +55,9 @@ h2 {
 }
 
 .navbar a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     background-color: #14213d;
-    color: #e5e5e5;
+    color: #1c20ee;
 }
 
 .dropdown-menu.show {
@@ -82,11 +74,8 @@ h2 {
 
 /* About */
 #about {
-  color: #e5e5e5;
-  background: url("../images/about.jpeg") no-repeat center;
-  background-size: cover;
+  color: #14213d;
   text-align: center;
-  font-size: 100%;
   margin-top: 30px;
 }
 
@@ -102,38 +91,34 @@ h2 {
   height: 50vh;
   text-align: center;
   margin-bottom: 10px;
-}
-
-#dontforget {
-  background: url("../images/dontforget.jpeg") no-repeat center;
-  background-size: cover;
-}
-
-#wishList {
-  background-color: #1c20ee;
+  background-color: #f8d59c;
+  color: #14213d;
 }
 
 .location-item,
 .items {
-  padding-top: 10px;
   font-size: 150%;
-  color: #e5e5e5;
 }
 
 .items {
   list-style: none;
+  padding-top: 20px;
 }
 
 .location-list,
 .location-item {
-  list-style-type: decimal;
   display: inline-flex;
   flex-direction: column;
   margin-right: 5px;
+  padding-top: 10px;
 }
 
 /* Footer */
 footer {
   background-color: #14213d;
-  height: 30px;
+  height: 40px;
+  text-align: center;
+  color: #e5e5e5;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
