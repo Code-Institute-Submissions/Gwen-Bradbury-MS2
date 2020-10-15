@@ -75,6 +75,11 @@ img {
     height: auto;
 }
 
+/* Videos */
+iframe {
+    padding: 10px;
+}
+
 /* Map */
 #map {
   margin: 10px 10px 20px 10px;
