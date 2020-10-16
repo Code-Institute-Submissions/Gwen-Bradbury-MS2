@@ -1,10 +1,10 @@
-# Into The Blue.
+# Into The Blue
 
 -markdown!
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-## Introduction.
+## Introduction
 
 ![Apple Devices Picture](./wireframes/)
 
@@ -20,7 +20,7 @@ The contact page allows users to email messages to the site owner.
 The website is colourful and engaging, drawing the user in with bright, bold images and standout text, which I hope entices them
 to get planning thier next dive trip.
 
-## UX.
+## UX
 
 The purpose of the site is to provide a simple, straightforward format presenting information about some of the UK's best divesites.
 My website is designed for people interested in diving, specifically diving in the UK, and im hopeful my website 
@@ -42,9 +42,9 @@ I have produced a mock up of all 3 of my website pages.
 
 ![Wireframe picture](./wireframes/MS2NewWireframe.png)
 
-## Design-
+### Design
 
-### Colour Palette-
+#### Colour Palette-
 
 I used coolors to generate my colour scheme-
 
@@ -57,13 +57,13 @@ The diving and it's benefits sections I left in black and white to make the text
 I added a background color to the wish list and dont forget sections to try and excite the user whilst they used the map and discovered new divesites. 
 I decided on color #f8d59c, as it still contrasted with the heading background but was pale enough to not be a massive distraction for the user.
 
-### Font-
+#### Font-
 
 I used 0.1em letterspacing throught my website to give it a clean, easy to read formatt. 
 The underline text decoration was used on some of the smaller headings to make them stand out.
 I gave the font a size of 120% so the text was easier to read on smaller screen sizes.
 
-## User Stories-
+## User Stories
 
 ### As a Site User-
 
@@ -97,17 +97,25 @@ I gave the font a size of 120% so the text was easier to read on smaller screen 
 * On our Human Resources team, we look for the information that pertains to the specific needs of the company, and does this individual have those skill sets. My skill sets are evidenced in the website produced. I've used a wide range of HTML, CSS and javascript to 
   develop this site, as well as technologies such as bootstrap for responsiveness.
 
-## Features.
+## Features
 
 ### Exsisting Features-
 
-* _Navbar_ - Holds the name of the page and links that will take the user to specific sections of the page when clicked.
+#### Features on the Home Page - 
+
+* _Navbar_ - Holds the name of the page and links that will take the user to specific sections of the page when clicked. It has a dropdown toggle for use on smaller screens.
 
 * _Carousel_ - A slide show of images that have been taken whilst diving to encourage divers to explore more of the website and eventually get diving.
 
 * _Diving and it's benefits Section_ - Information on the mental and physical benefits of scuba diving and the benefits to the underwater creatures and thier habitats.
 
 * _Gallery_ - A selection of you tube videos of people diving in the UK to give the users an insight into what UK diving can be like.
+
+* _Footer_ - Includes the copyright information.
+
+The Navbar, Carousel and Footer are repeated on the other pages of the website.
+
+#### Features on the UK Divesites page - 
 
 * _About Section_ - An introduction to what my site is about and instructions on how to use the features implemented within it.
 
@@ -121,9 +129,11 @@ I gave the font a size of 120% so the text was easier to read on smaller screen 
 
 * _Don't Forget_ - A list that reminds the user to remember some of the more commonly forgotten peices of diving equipment.
 
+#### Features on the Contact Us page - 
+
 * _Contact Us_ - An email form that can be filled out and sent with any messages for the website owner, such as new divesites to add, or problems encountered.
 
-## Technologies Used.
+## Technologies Used
 
 1. **HTML, or Hyper Text Markup Language:**  Used to construct the page withn this web site.  For further info on this language, see this link;   
  https://developer.mozilla.org/en-US/docs/Web/HTML
@@ -178,7 +188,7 @@ I gave the font a size of 120% so the text was easier to read on smaller screen 
 
       *    
 
- ## Deployment.
+ ## Deployment
 
 1. Created a Github account at https://github.com
    My account url;    https://github.com/Gwen-Bradbury
@@ -198,7 +208,7 @@ I gave the font a size of 120% so the text was easier to read on smaller screen 
 
 For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
-## Credits.
+## Credits
 
 ### Content-
 
