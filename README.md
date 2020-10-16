@@ -4,7 +4,7 @@
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-## Into The Blue.
+## Introduction.
 
 ![Apple Devices Picture](./wireframes/)
 
@@ -12,32 +12,77 @@ This is my second milestone project; Designed to exhibit my capabilities and ski
 of Code Institute. (https://codeinstitute.net/)
 The goal was to showcase my skills to potential employers/recruiters, on a topic that I'm deeply interested in.
 My project allows users to discover new divesites within the UK, inspiring them to dive in new locations and more frequently.
+It presents a landing page with information on the benefits, both mental and pysical, of scuba diving. The UK divesites page contains a 
+map with markers pointing at the locations of the UK's best diving spots. 
+It also boasts an information window opening from the marker, containing specific information on that particular site.
+The wish list is a place where users can note down thier favourite dive spots after discovering them on the map. 
+The contact page allows users to email messages to the site owner.
+The website is colourful and engaging, drawing the user in with bright, bold images and standout text, which I hope entices them
+to get planning thier next dive trip.
 
 ## UX.
 
-The purpose of the site is to provide a simple, easy to use format presenting information about some of the UK's best divesites.
+The purpose of the site is to provide a simple, straightforward format presenting information about some of the UK's best divesites.
 My website is designed for people interested in diving, specifically diving in the UK, and im hopeful my website 
 will give them the motivation towards getting into the water more often and diving somewhere new.
+The website is fully functional and interactive giving the user a positive experience as they move throught the pages.
+I focused on a design that would be engaging and easy to navigate so users will continue to repeatedly visit and make use of the 
+features inplimented within the website.
 
 #### Wireframes-
 
 ![Wireframe picture](./wireframes/MS2.jpeg)
 
 The carousel of images was added as my mentor wanted to bulk out the project and make it a better portfollio piece.
-I was given a new mentor on the 12th October 2020 and due to that have a new wireframe with more features.
+I was given a new mentor on the 12th October 2020 and due to that have a new wireframe with more features that I used to 
+complete my Milestone 2 Project.
 
 ![Wireframe picture](./wireframes/MS2NewWireframe.png)
 
-#### Colour Palette-
+#### Design-
+
+### Colour Palette-
+
+I used coolors to generate my colour scheme-
 
 https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 
+I chose #14213D (Oxford Blue) as the background for my nav bar and headings as I felt it was a colour that best represented the dark depths of the ocean.
+#E5E5E5 (Platinum) was used as the heading text colour as it was a contrast to the Oxford Blue background and made the text stand out.
+I also used #1C20EE as my Send Email button and my nav link hover colour to give more emphasis to the user controls.
+The diving and it's benefits sections I left in black and white to make the text easy to read.
+I added a background color to the wish list and dont forget sections to try and excite the user whilst they used the map and discovered new divesites. 
+I decided on color #f8d59c, as it still contrasted with the heading background but was pale enough to not be a massive distraction for the user.
+
+### Font-
+
+
+
 #### User Stories-
+
+### As a Site User-
 
 * As a diver, I want to find new dive sites quickly and easily, and have information on that dive site accessable in an easy to read and understand formatt.
   The about section in index.html tells the user how to use the page and google map to meet thier needs quickly and efficiently.
   The google map markers have been placed on the map on the location of the dive site and, when clicked will open an info window containing relevent information about that particular dive site,
    along with a link to a dive company that runs dives in that area.
+
+* As a user, I want to know how the website works and have easy to follow instructions.
+
+* As a user, I want to know when I take the wrong action or when something doesn't work.
+
+* As a user, I want the website to be interactive with real time feedback.
+
+* As a user, I want the the website to be easy to use and navigate.
+
+### As a Designer-
+
+* As a web designer and developer, I want to track the user behaviour so that I can improve the user experience. I want to track the user behaviour so that I can identify the possible user confusion over navigating the website.
+  I want feed back from the users on what features are being used most frequently and ideas on other interesting divesites that can be added to the website in the future.
+
+* As a web designer and developer, I want the website to be interactive and give real time feedback when a user executes an action.
+
+### As an Employer-
 
 * As an employer/recruiter, I need to see and review the skills and work capabilities, and analyze if you have the skills we require. In this website I've used many user-friendly features to showcase my skills as a developer.
   From the layout and colour scheme to the info windows within the google map, every implemented piece of code has been built to make the site as appealing and easy to use for customers as possible. 
