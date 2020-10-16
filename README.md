@@ -24,6 +24,9 @@ will give them the motivation towards getting into the water more often and divi
 ![Wireframe picture](./wireframes/MS2.jpeg)
 
 The carousel of images was added as my mentor wanted to bulk out the project and make it a better portfollio piece.
+I was given a new mentor on the 12th October 2020 and due to that have a new wireframe with more features.
+
+![Wireframe picture](./wireframes/MS2NewWireframe.png)
 
 #### Colour Palette-
 
