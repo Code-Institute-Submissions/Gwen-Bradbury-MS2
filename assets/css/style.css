@@ -5,11 +5,13 @@ h4 {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  letter-spacing: 0.1em;
 }
 
 p {
   padding-bottom: 20px;
   text-align: center;
+  letter-spacing: 0.1em;
 }
 
 h2 {
@@ -20,9 +22,9 @@ h2 {
   text-decoration: underline;
   text-align: center;
   color: #14213d;
+  letter-spacing: 0.1em;
 }
 
-form,
 #map,
 #wishList,
 #dontforget {
@@ -50,6 +52,7 @@ form,
 .navbar a {
   background-color: #14213d;
   color: #e5e5e5;
+  letter-spacing: 0.1em;
 }
 
 .navbar a:hover {
@@ -60,6 +63,7 @@ form,
 
 .dropdown-menu.show {
   padding: 0;
+  letter-spacing: 0.1em;
 }
 
 /* carousel */
@@ -72,26 +76,34 @@ form,
 
 /* Benefits */
 .seal {
-  margin: 10px;
-  width: 100%;
-  max-height: 600px;
+    float: left;
+  margin: 20px;
+  width: 40%;
+  height: auto;
 }
 
 .turtle {
-  margin: 10px;
-  width: 100%;
-  height: 600px;
+    float: right;
+  margin: 20px;
+  width: 40%;
+  height: auto;
 }
 
+.benefits li,
 .benefits p {
-  text-align: left;
-  padding: 20px 10px 10px 10px;
+    clear: left;
+  text-align: top;
+  padding: 20px 20px 20px 20px;
   font-size: 120%;
 }
 
-/* Videos */
+.benefits li {
+    letter-spacing: 0.1em;
+}
+
+/* Gallery */
 iframe {
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 /* Map */
@@ -115,6 +127,7 @@ iframe {
 .location-item,
 .items {
   font-size: 150%;
+  letter-spacing: 0.1em;
 }
 
 .items {
@@ -141,6 +154,7 @@ iframe {
 form {
   background-color: #f8d59c;
   padding: 5px;
+  letter-spacing: 0.1em;
 }
 
 form {
@@ -152,6 +166,7 @@ form {
   margin-bottom: 20px;
   background-color: #14213d;
   color: #e5e5e5;
+  letter-spacing: 0.1em;
 }
 
 /* Footer */
