@@ -22,6 +22,7 @@ h2 {
   color: #14213d;
 }
 
+form,
 #map,
 #wishList,
 #dontforget {
@@ -73,6 +74,11 @@ h2 {
 img {
     width: 100%;
     height: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.benefits {
+    padding: 20px 10px 10px 10px;
 }
 
 /* Videos */
@@ -97,6 +103,8 @@ iframe {
   color: #14213d;
 }
 
+#about,
+.benefits,
 .location-item,
 .items {
   font-size: 150%;
@@ -107,7 +115,6 @@ iframe {
   padding-top: 10px;
 }
 
-#benefits li,
 .items li {
     padding: 10px 10px 10px 10px;
 }
@@ -118,6 +125,26 @@ iframe {
   flex-direction: column;
   margin-right: 5px;
   padding-top: 10px;
+}
+
+/* Emails */
+#fullname,
+#messagesummary,
+#emailaddress,
+form {
+    background-color: #f8d59c;
+    padding: 5px;
+}
+
+form {
+    margin: 30px;
+}
+
+.send-email {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #14213d;
+    color: #e5e5e5;
 }
 
 /* Footer */

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Into The Blue</title>
     <link
       rel="stylesheet"
@@ -11,10 +11,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
- <!-- Navbar taken from bootstrap -->
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  </head>
+  <body>
+    <!-- Navbar taken from bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
       <a class="navbar-brand" href="index.html">Into The Blue</a>
       <button
         class="navbar-toggler"
@@ -55,18 +55,54 @@
         </ul>
       </div>
     </nav>
-     <!-- Carousel -->
+    <!-- Carousel -->
     <div id="carousel">
       <img class="image" />
     </div>
+    <!-- Eamils -->
+    <div class="center-form">
+      <form onsubmit="return sendMail(this);">
+        <input
+          type="text"
+          name="name"
+          id="fullname"
+          class="form-control"
+          placeholder="Name:"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          id="emailaddress"
+          class="form-control"
+          placeholder="Email:"
+          required
+        />
+        <textarea
+          rows="5"
+          name="messagesummary"
+          id="messagesummary"
+          class="form-control"
+          placeholder="Write Message Here!"
+          required
+        ></textarea>
+        <div class="form-row text-center">
+          <div class="col">
+            <button type="submit" class="btn btn-primary send-email">
+              Send Email  <i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
 
     <footer>
-    <div>
-    @Copyright Gwen 2020 
-    </div>
+      <div>
+        @Copyright Gwen 2020
+      </div>
     </footer>
 
-     <script
+    <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
@@ -96,5 +132,5 @@
     <script src="assets/js/wishList.js"></script>
     <script src="assets/js/carousel.js"></script>
     <script src="assets/js/email.js"></script>
-</body>
+  </body>
 </html>
