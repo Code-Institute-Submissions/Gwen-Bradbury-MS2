@@ -29,17 +29,20 @@ The website is fully functional and interactive giving the user a positive exper
 I focused on a design that would be engaging and easy to navigate so users will continue to repeatedly visit and make use of the 
 features inplimented within the website.
 
-#### Wireframes-
+### Wireframes-
 
 ![Wireframe picture](./wireframes/MS2.jpeg)
 
 The carousel of images was added as my mentor wanted to bulk out the project and make it a better portfollio piece.
-I was given a new mentor on the 12th October 2020 and due to that have a new wireframe with more features that I used to 
+
+I was given a new mentor on the 12th October 2020 and due to that have a new mock up instead of a new wireframe with more features that I used to 
 complete my Milestone 2 Project.
+
+I have produced a mock up of all 3 of my website pages.
 
 ![Wireframe picture](./wireframes/MS2NewWireframe.png)
 
-#### Design-
+## Design-
 
 ### Colour Palette-
 
@@ -56,9 +59,11 @@ I decided on color #f8d59c, as it still contrasted with the heading background b
 
 ### Font-
 
+I used 0.1em letterspacing throught my website to give it a clean, easy to read formatt. 
+The underline text decoration was used on some of the smaller headings to make them stand out.
+I gave the font a size of 120% so the text was easier to read on smaller screen sizes.
 
-
-#### User Stories-
+## User Stories-
 
 ### As a Site User-
 
@@ -98,6 +103,12 @@ I decided on color #f8d59c, as it still contrasted with the heading background b
 
 * _Navbar_ - Holds the name of the page and links that will take the user to specific sections of the page when clicked.
 
+* _Carousel_ - A slide show of images that have been taken whilst diving to encourage divers to explore more of the website and eventually get diving.
+
+* _Diving and it's benefits Section_ - Information on the mental and physical benefits of scuba diving and the benefits to the underwater creatures and thier habitats.
+
+* _Gallery_ - A selection of you tube videos of people diving in the UK to give the users an insight into what UK diving can be like.
+
 * _About Section_ - An introduction to what my site is about and instructions on how to use the features implemented within it.
 
 * _Google Map_ - A familiar google map with markers positioned on the locations of the different dive sites.
@@ -109,6 +120,8 @@ I decided on color #f8d59c, as it still contrasted with the heading background b
 * _Wish List_ - This section allows the user to make a list of the dive sites they may wish to visit, and stores the list to local storage, allowing them to leave and return to the page without having to rewrite it. 
 
 * _Don't Forget_ - A list that reminds the user to remember some of the more commonly forgotten peices of diving equipment.
+
+* _Contact Us_ - An email form that can be filled out and sent with any messages for the website owner, such as new divesites to add, or problems encountered.
 
 ## Technologies Used.
 
@@ -214,6 +227,8 @@ For more information about the above process; https://help.github.com/en/github/
    * https://www.youtube.com/watch?v=4YQ4svkETS0 - Traversy Media simple slide show
    * https://www.youtube.com/watch?v=wWWNrANNO1k - Traversy Media responsive slide show 
    * https://www.youtube.com/watch?v=7ZO2RTMNSAY&t=150s - Travsery Media image slider tutorial
+
+12. Mock ups https://www.figma.com/files/project/16683920/MS2
 
 ### Media-
 
