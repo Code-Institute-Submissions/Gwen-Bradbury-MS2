@@ -31,5 +31,7 @@ function carousel() {
     }
     else{
     	i = 0;
-    } console.log("hello")
+    }
+    setTimeout(carousel, time);
 }
+window.onload = carousel();
