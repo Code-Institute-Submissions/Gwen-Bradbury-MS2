@@ -171,6 +171,8 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 * _Language Button_ - A button that can be clicked that translates the site into different languages so more people can use it.
 
+* _Loading Bar_ - To give the website a more user friendly design whilst waiting for the pages to load.
+
 ### Bugs and Fixes After Testing -
 
 * _Confirmation Emails_ - Using emailjs to also send an email to the user to confirm their email has been received - this will be implemented in the future as the user alreday gets a pop up informing them that the email has successfully been sent.
