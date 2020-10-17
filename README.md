@@ -16,7 +16,6 @@
     + [Features on the UK Divesites page -](#features-on-the-uk-divesites-page--)
     + [Features on the Contact Us page -](#features-on-the-contact-us-page--)
   * [Features left to Implement -](#features-left-to-implement--)
-  * [Bugs and Fixes After Testing -](#bugs-and-fixes-after-testing--)
 - [Technologies Used](#technologies-used)
   * [Languages-](#languages-)
   * [Libraries-](#libraries-)
