@@ -175,6 +175,8 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 * _Confirmation Emails_ - Using emailjs to also send an email to the user to confirm their email has been received - this will be implemented in the future as the user alreday gets a pop up informing them that the email has successfully been sent.
 
+* _Styling_ - Better styling of the pop up that tells users thier email has been sent successfully.
+
 ## Technologies Used
 
 ### Languages-
@@ -240,7 +242,7 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
  6. **Open Issues:** 
 
-      *    
+      *   
 
  ## Deployment
 
