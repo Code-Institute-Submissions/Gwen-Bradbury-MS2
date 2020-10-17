@@ -177,7 +177,7 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 4. **Chrome DevTools:**  A set of web developer tools built directly into the Google Chrome browser. I used these tools constantly thoughout the development cycle.
  https://developers.google.com/web/tools/chrome-devtools
 
-5. **W3C Markup Validation Service:**  Used to run all html and css code thru a validation process looking for errors; https://validator.w3.org/
+5. **W3C Markup Validation Service:**  Used to run all html and css code through a validation process looking for errors; https://validator.w3.org/
  https://jigsaw.w3.org/css-validator/validator
 
 ## Testing
@@ -206,7 +206,7 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
  6. **Jasmine**
 
- 7.  **Open Issues:** 
+ 7. **Open Issues:** 
 
       *    
 
@@ -240,6 +240,7 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
     https://github.com/Gwen-Bradbury/MS2  and on the home page on the right hand side just above all the files, you will see a green button that says,
    "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file.
    To continue with cloning, you would;
+
     * Open Git Bash
     * Change the current working directory to the location where you want the cloned directory to be made.
     * Type git clone, and then paste this URL; https://github.com/Gwen-Bradbury/MS2.git      Press Enter. Your local clone will be created.
@@ -262,7 +263,7 @@ For more information about the above process; https://help.github.com/en/github/
 
 6. For help with understanding javascript Javascript and JQuery by Jon Duckett
 
-7. For help with the google maps pins and info windows stack overflow 
+7. For help with the google maps pins and info windows stack overflow https://stackoverflow.com/
 
 8. Information on the divesites https://www.redbull.com/gb-en/ten-best-scuba-diving-locations-in-uk
 
@@ -271,6 +272,7 @@ For more information about the above process; https://help.github.com/en/github/
 10. Colour scheme https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff 
 
 11. Slider tutorials that I used to understand how to make an image slideshow (carousel)-
+  
    * https://www.youtube.com/watch?v=mngeB-2Cjqg - automatic carousel tutorial 
    * https://www.youtube.com/watch?v=4YQ4svkETS0 - Traversy Media simple slide show
    * https://www.youtube.com/watch?v=wWWNrANNO1k - Traversy Media responsive slide show 
@@ -278,15 +280,21 @@ For more information about the above process; https://help.github.com/en/github/
 
 12. Mock ups https://www.figma.com/files/project/16683920/MS2
 
+13. Information on the benefits of scuba diving- 
+    
+    * https://sirenfleet.com/uncategorized/benefits-scuba-diving/
+    * https://rushkult.com/eng/scubamagazine/scuba-diving-benefits/
+    * https://www.deeperblue.com/top-10-health-benefits-of-scuba-diving/
+
 ### Media-
 
 1. Contents table in README.md from http://ecotrust-canada.github.io/markdown-toc/
 
-2. Font Awesome for the trash and add icons in wish list section https://fontawesome.com/
+2. Font Awesome for the trash and add icons in wish list section, the icons in the dont forget list, and the icon in the send email button on the contact us page https://fontawesome.com/
 
-3. Background images https://unsplash.com/ 
+3. Images https://unsplash.com/ 
 
-4. Background images https://www.pexels.com/
+4. Images https://www.pexels.com/
 
 5. Am I Responsive web site for checking responsiveness on all Apple devices screen sizes;
    http://ami.responsivedesign.is/
@@ -301,4 +309,10 @@ For more information about the above process; https://help.github.com/en/github/
 given by the many members. https://app.slack.com/client/T0L30B202/C0L316Z96
 
 3. The amazing Code Institute Tutors.
+
+4. My new mentor Seun Owonikoko for her advice and encouragement
+
+## Disclaimer
+
+#### This website was made for educational purposes only
 
