@@ -186,23 +186,23 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
  2.  **Laptop**
      
-      * Google Chrome browser; all feature links and icons perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.
+      * Google Chrome browser; all feature links and icons perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.
 
  3.  **Mobile**
 
-      * Safari browser; all feature links and icons perform well.
+      * Safari browser; all feature links and icons perform well. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.
 
  4.  **Ipad Pro**
 
-      * Safari browser; all feature links and icons perform as they should.
+      * Safari browser; all feature links and icons perform as they should. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.
 
 ![Apple Devices picture](./wireframes/)
 
  5. **Desktop**
 
-      * Google Chrome browser; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.
-      * Internet Edge; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.
-      * Mozilla Firefox; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes.        
+      * Google Chrome browser; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.
+      * Internet Edge; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.
+      * Mozilla Firefox; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.       
 
  6. **Jasmine**
 
