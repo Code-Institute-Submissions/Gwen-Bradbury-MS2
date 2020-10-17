@@ -1,12 +1,44 @@
 # Into The Blue
 
--markdown!
+- [Introduction](#introduction)
+- [UX](#ux)
+  * [Wireframes-](#wireframes-)
+  * [Design](#design)
+    + [Colour Palette-](#colour-palette-)
+    + [Font-](#font-)
+- [User Stories](#user-stories)
+  * [As a Site User-](#as-a-site-user-)
+  * [As a Designer-](#as-a-designer-)
+  * [As an Employer-](#as-an-employer-)
+- [Features](#features)
+  * [Exsisting Features-](#exsisting-features-)
+    + [Features on the Home Page -](#features-on-the-home-page--)
+    + [Features on the UK Divesites page -](#features-on-the-uk-divesites-page--)
+    + [Features on the Contact Us page -](#features-on-the-contact-us-page--)
+  * [Features left to Implement -](#features-left-to-implement--)
+  * [Bugs and Fixes After Testing -](#bugs-and-fixes-after-testing--)
+- [Technologies Used](#technologies-used)
+  * [Languages-](#languages-)
+  * [Libraries-](#libraries-)
+  * [API's-](#api-s-)
+  * [Tools-](#tools-)
+- [Testing](#testing)
+- [Deployment](#deployment)
+    + [Used Commands during Deployment -](#used-commands-during-deployment--)
+  * [Hosting on GitHub Pages-](#hosting-on-github-pages-)
+  * [Running this Project Locally-](#running-this-project-locally-)
+- [Credits](#credits)
+  * [Content-](#content-)
+  * [Media-](#media-)
+  * [Acknowledgements-](#acknowledgements-)
+- [Disclaimer](#disclaimer)
+    + [This website was made for educational purposes only](#this-website-was-made-for-educational-purposes-only)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Introduction
 
-![Apple Devices Picture](./wireframes/)
+![Apple Devices Picture](./wireframes/responsive.png)
 
 This is my second milestone project; Designed to exhibit my capabilities and skills in javascript, as a student 
 of Code Institute. (https://codeinstitute.net/)
@@ -141,7 +173,7 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 ### Bugs and Fixes After Testing -
 
-
+* 
 
 ## Technologies Used
 
@@ -186,27 +218,27 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
  2.  **Laptop**
      
-      * Google Chrome browser; all feature links and icons perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.
+      * Google Chrome browser; all feature links and icons perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form respond as expected, whilst maintaning user friendly design aspects. All buttons, markers and links were clicked and tested for responses, all features were used and tested with appropriate responses given.
+
+      ![Chromebook Devices picture](./wireframes/chromebook.png)
 
  3.  **Mobile**
 
-      * Safari browser; all feature links and icons perform well. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.
+      * Safari browser; all feature links and icons perform well. The webpages are responsive and the images, map markers and info windows, and contact form respond as expected whilst maintaning user friendly design aspects. All buttons, markers and links were clicked and tested for responses, all features were used and tested with appropriate responses given.
 
  4.  **Ipad Pro**
 
-      * Safari browser; all feature links and icons perform as they should. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.
+      * Safari browser; all feature links and icons perform as they should. The webpages are responsive and the images, map markers and info windows, and contact form respond as expected whilst maintaning user friendly design aspects. All buttons, markers and links were clicked and tested for responses, all features were used and tested with appropriate responses given.
 
-![Apple Devices picture](./wireframes/)
+![Apple Devices picture](./wireframes/responsive.png)
 
  5. **Desktop**
 
-      * Google Chrome browser; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.
-      * Internet Edge; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.
-      * Mozilla Firefox; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form equally so whilst maintaning user friendly design aspects.       
+      * Google Chrome browser; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form repsond as expected whilst maintaning user friendly design aspects. All buttons, markers and links were clicked and tested for responses, all features were used and tested with appropriate responses given.
+      * Internet Edge; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form respond as expected whilst maintaning user friendly design aspects. All buttons, markers and links were clicked and tested for responses, all features were used and tested with appropriate responses given.
+      * Mozilla Firefox; features and icon links perform well on all viewport sizes. Developer tools were also used on browser for the various viewport sizes. The webpages are responsive and the images, map markers and info windows, and contact form respond as expected whilst maintaning user friendly design aspects. All buttons, markers and links were clicked and tested for responses, all features were used and tested with appropriate responses given.      
 
- 6. **Jasmine**
-
- 7. **Open Issues:** 
+ 6. **Open Issues:** 
 
       *    
 
