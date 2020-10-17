@@ -244,6 +244,8 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
       * Clear Form - The contact us form doesn't clear after the email sends.
 
       * Wish List - Needs a required field adding as you can add to it with no value.
+
+      * HTML Validation - Returns an Error for Source code and Alt Text on IMG tag in index.html. The source is in the carousel.js file wich is where the carousel and images are running from. The Alt text is in there too.
   
  ## Deployment
 

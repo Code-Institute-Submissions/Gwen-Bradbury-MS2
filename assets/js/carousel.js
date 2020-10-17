@@ -31,5 +31,5 @@ function carousel() {
     }
     else{
     	i = 0;
-    } 
+    } console.log("hello")
 }
