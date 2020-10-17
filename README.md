@@ -103,17 +103,17 @@ I gave the font a size of 120% so the text was easier to read on smaller screen 
 
 #### Features on the Home Page - 
 
-* _Navbar_ - Holds the name of the page and links that will take the user to specific sections of the page when clicked. It has a dropdown toggle for use on smaller screens.
+* _Navbar_ - Holds the name of the page and links that will take the user to the other pages of the site when clicked. It has a dropdown toggle for use on smaller screens and is fixed so will always be seen by the user. The nav links have an a:hover CSS element that allows the user to see that the cursor is over a nav link and that it can be clicked.
 
-* _Carousel_ - A slide show of images that have been taken whilst diving to encourage divers to explore more of the website and eventually get diving.
+* _Carousel_ - A slide show of images that have been taken whilst diving to encourage divers to explore more of the website and eventually get diving. THe images are bright and bold, to catch the users eye, and are responsive for smaller screen sizes.
 
-* _Diving and it's benefits Section_ - Information on the mental and physical benefits of scuba diving and the benefits to the underwater creatures and thier habitats.
+* _Diving and it's benefits Section_ - Information on the mental and physical benefits of scuba diving, and the benefits to the underwater creatures and thier habitats.
 
 * _Gallery_ - A selection of you tube videos of people diving in the UK to give the users an insight into what UK diving can be like.
 
 * _Footer_ - Includes the copyright information.
 
-The Navbar, Carousel and Footer are repeated on the other pages of the website.
+The Navbar, Carousel and Footer are repeated on the other pages of the website to give the website pages consistancy and flow.
 
 #### Features on the UK Divesites page - 
 
@@ -125,13 +125,21 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website.
 
 * _Links_ - The links in the information window take the user to the dive companys website which will load on a seperate browser tab.
 
-* _Wish List_ - This section allows the user to make a list of the dive sites they may wish to visit, and stores the list to local storage, allowing them to leave and return to the page without having to rewrite it. 
+* _Wish List_ - This section allows the user to make a list of the dive sites they may wish to visit, and stores the list to local storage, allowing them to leave and return to the page without having to rewrite it. Just type the name of the divesite into the box and click the + to add it to the list! You can use the bin icon to remove it from your list if you need to. The bin icon appears next to the location in the list.
 
-* _Don't Forget_ - A list that reminds the user to remember some of the more commonly forgotten peices of diving equipment.
+* _Don't Forget_ - A list that reminds the user to remember some of the more commonly forgotten pieces of diving equipment.
 
 #### Features on the Contact Us page - 
 
 * _Contact Us_ - An email form that can be filled out and sent with any messages for the website owner, such as new divesites to add, or problems encountered.
+
+### Features left to implement -
+
+* _Divesites around the world_ - More pages with google maps and information windows on the markers to show users spectacular diving spots in places other than the UK.
+
+* _Language Button_ - A button that can be clicked that translates the site into different languages so more people can use it.
+
+### Bugs and Fixes After Testing
 
 ## Technologies Used
 
