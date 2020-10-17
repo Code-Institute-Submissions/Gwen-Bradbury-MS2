@@ -55,7 +55,6 @@ h2 {
   letter-spacing: 0.1em;
 }
 
-a .nav-link:hover,
 .navbar a:hover {
   text-decoration: none;
   background-color: #14213d;
