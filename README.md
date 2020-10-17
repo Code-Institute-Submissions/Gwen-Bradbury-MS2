@@ -244,8 +244,10 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
  6. **Open Issues:** 
 
-      *   
+      * Confirmation Emails - Using emailjs to also send an email to the user to confirm their email has been received - this will be implemented in the future as the user alreday gets a pop up informing them that the email has successfully been sent.
 
+      * Styling - Better styling of the pop up that tells users thier email has been sent successfully.
+  
  ## Deployment
 
  This website was developed in Gitpod and pushed to the remote repository, GitHub. The live page is hosted on GitHub Pages.
