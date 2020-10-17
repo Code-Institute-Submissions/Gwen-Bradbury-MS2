@@ -133,15 +133,19 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 * _Contact Us_ - An email form that can be filled out and sent with any messages for the website owner, such as new divesites to add, or problems encountered.
 
-### Features left to implement -
+### Features left to Implement -
 
 * _Divesites around the world_ - More pages with google maps and information windows on the markers to show users spectacular diving spots in places other than the UK.
 
 * _Language Button_ - A button that can be clicked that translates the site into different languages so more people can use it.
 
-### Bugs and Fixes After Testing
+### Bugs and Fixes After Testing -
+
+
 
 ## Technologies Used
+
+### Languages-
 
 1. **HTML, or Hyper Text Markup Language:**  Used to construct the page withn this web site.  For further info on this language, see this link;   
  https://developer.mozilla.org/en-US/docs/Web/HTML
@@ -151,19 +155,29 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 3. **Javascript:** A programming language used alongside the google maps api to create the markers and info windows inside the map, and to code the wish list section.
 
-4. **Bootstrap:**  A CSS framework that assists the programmer in creating responsive, mobile first front-end web sites. https://getbootstrap.com/
+### Libraries- 
 
-5. **Gitpod:**  An online IDE also used for creating & saving code that runs in a browser, it does not have to be installed on your PC.
+1. **Bootstrap:**  A CSS framework that assists the programmer in creating responsive, mobile first front-end web sites. https://getbootstrap.com/
+
+### API's-
+
+1. **Google Maps:** Used to show users the locations of the various divesites, the markers and info windows were also placed inside the map.
+
+2. **Emailjs:** Used to send the contact form in an email format to my gmail account.
+
+### Tools-
+
+1. **Gitpod:**  An online IDE also used for creating & saving code that runs in a browser, it does not have to be installed on your PC.
  https://www.gitpod.io/
 
-6. **Git:**  A version control system for tracking changes in source code during software development. https://git-scm.com/
+2. **Git:**  A version control system for tracking changes in source code during software development. https://git-scm.com/
 
-7. **Github:**  A company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft. https://github.
+3. **Github:**  A company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft. https://github.
 
-8. **Chrome DevTools:**  A set of web developer tools built directly into the Google Chrome browser. I used these tools constantly thoughout the development cycle.
+4. **Chrome DevTools:**  A set of web developer tools built directly into the Google Chrome browser. I used these tools constantly thoughout the development cycle.
  https://developers.google.com/web/tools/chrome-devtools
 
-9. **W3C Markup Validation Service:**  Used to run all html and css code thru a validation process looking for errors; https://validator.w3.org/
+5. **W3C Markup Validation Service:**  Used to run all html and css code thru a validation process looking for errors; https://validator.w3.org/
  https://jigsaw.w3.org/css-validator/validator
 
  ## Testing.
