@@ -13,13 +13,6 @@ function sendMail(contactForm) {
       function (error) {
         "FAILED", error;
         alert("FAILED!" + error);
-      })
+      });
   return false;
-}
-
-function clearForm() {
-let contactForm = document.getElementById("form")
-contactForm.name.value="";
-contactForm.emailaddress.value="";
-contactForm.messagesummary.value="";
 }

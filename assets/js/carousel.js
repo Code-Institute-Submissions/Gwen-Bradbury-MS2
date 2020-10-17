@@ -21,7 +21,7 @@ let images = [
    content: 'assets/images/singlefish.jpg',
    altText: 'Fish next to a diver'
 }
-]
+];
 
 function carousel() {
     document.querySelector('.image').src = images[i].content;
@@ -32,6 +32,4 @@ function carousel() {
     else{
     	i = 0;
     } 
-    setTimeout(carousel,time);
 }
-window.onload = carousel();

@@ -173,11 +173,7 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 * _Loading Bar_ - To give the website a more user friendly design whilst waiting for the pages to load.
 
-### Bugs and Fixes After Testing -
-
 * _Confirmation Emails_ - Using emailjs to also send an email to the user to confirm their email has been received - this will be implemented in the future as the user alreday gets a pop up informing them that the email has successfully been sent.
-
-* _Styling_ - Better styling of the pop up that tells users thier email has been sent successfully.
 
 ## Technologies Used
 
@@ -244,9 +240,11 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
  6. **Open Issues:** 
 
-      * Confirmation Emails - Using emailjs to also send an email to the user to confirm their email has been received - this will be implemented in the future as the user alreday gets a pop up informing them that the email has successfully been sent.
-
       * Styling - Better styling of the pop up that tells users thier email has been sent successfully.
+
+      * Clear Form - The contact us form doesn't clear after the email sends.
+
+      * Wish List - Needs a required field adding as you can add to it with no value.
   
  ## Deployment
 
