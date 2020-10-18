@@ -191,6 +191,11 @@ textarea[name=messagesummary] {
   background-color: #14213d;
 }
 
+ button.send-email:hover {
+     background-color: #e5e5e5;
+     color: #14213d;
+ }
+
 /* Footer */
 footer {
   background-color: #14213d;
