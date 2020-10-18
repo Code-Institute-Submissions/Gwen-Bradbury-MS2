@@ -218,6 +218,8 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 - _Email Response_ - Using emailjs to send an email to the user to confirm their email has been received.
 
+![Emailjs picture](./wireframes/responseemail.png)
+
 ## Technologies Used
 
 ### Languages-
