@@ -200,7 +200,7 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 ### Bugs and Fixes Implemented after Testing -
 
-- _Background Colour_ - Changed the contact us form's background color to ![#fff](https://placehold.it/15/FFF/000000?text=+) #fff white as in the feedback it was found harder to see with ##f8d59c.
+- _Background Colour_ - Changed the contact us form's background color to ![#fff](https://placehold.it/15/FFF/000000?text=+) #fff white as in the feedback it was found harder to see with ![#f8d59c](https://placehold.it/15/F8D59C/000000?text=+) #f8d59c.
 
 - _Container_ - Added a container class to the sections of all my pages as it looks better on bigger screen sizes.
 
