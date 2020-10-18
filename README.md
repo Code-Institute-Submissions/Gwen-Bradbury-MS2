@@ -172,7 +172,7 @@ I gave the font a size of 120% so the text was easier to read on smaller screen 
 
 The Navbar, Carousel and Footer are repeated on the other pages of the website to give the website pages consistancy and flow.
 
-#### Features on the UK Divesites page -
+#### Features on Divesites pages -
 
 - _About Section_ - An introduction to what my site is about and instructions on how to use the features implemented within it.
 
