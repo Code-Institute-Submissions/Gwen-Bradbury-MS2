@@ -249,6 +249,8 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 5. **W3C Markup Validation Service:** Used to run all html and css code through a validation process looking for errors; https://validator.w3.org/
    https://jigsaw.w3.org/css-validator/validator
 
+6. **Js Hint:** Used to validate all my javascript https://jshint.com/   
+
 ## Testing
 
 1.  http://ami.responsivedesign.is/ has been used to see how the site performs on different Apple devices and their viewports, all links, icons performed as expected on all devices. I also used it to create the AppleDevicesView.png at the top of this Readme.
@@ -283,6 +285,8 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
     - The send email button and success modal work across all devices and screen sizes. 
     - The map and markers open and close when clicked, and the info windows are fully responsive across all devices and screen sizes.
 
+All of my HTML, CSS and Javascript was then run through the validators without returning any errors.
+
 7. **Open Issues:**
 
   * Styling - Better styling of the pop up that tells users thier email has been sent successfully.
@@ -290,6 +294,10 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
   * Clear Form - The contact us form doesn't clear after the email sends.
 
   * Wish List - Needs a required field adding as you can add to it with no value.
+
+### Validation of Code Testing- 
+
+   - 
 
 ## Deployment
 
