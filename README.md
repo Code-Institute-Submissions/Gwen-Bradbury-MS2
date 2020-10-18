@@ -53,9 +53,9 @@ to get planning thier next dive trip.
 
 A link to my website can be found [here](https://gwen-bradbury.github.io/MS2/)
 
-
-
 ## UX
+
+### Goals-
 
 The purpose of the site is to provide a simple, straightforward format presenting information about some of the UK's best divesites.
 My website is designed for people interested in diving, specifically diving in the UK, and im hopeful my website 
@@ -85,12 +85,12 @@ I used coolors to generate my colour scheme-
 
 https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 
-I chose #14213D (Oxford Blue) as the background for my nav bar and headings as I felt it was a colour that best represented the dark depths of the ocean.
-#E5E5E5 (Platinum) was used as the heading text colour as it was a contrast to the Oxford Blue background and made the text stand out.
-I also used #1C20EE as my Send Email button and my nav link hover colour to give more emphasis to the user controls.
+I chose ![#14213D](https://placehold.it/15/CD853F/000000?text=+) #14213D (Oxford Blue) as the background for my nav bar and headings as I felt it was a colour that best represented the dark depths of the ocean.
+![#E5E5E5](https://placehold.it/15/CD853F/000000?text=+) #E5E5E5 (Platinum) was used as the heading text colour as it was a contrast to the Oxford Blue background and made the text stand out.
+I also used ![#1C20EE](https://placehold.it/15/CD853F/000000?text=+) #1C20EE as my Send Email button and my nav link hover colour to give more emphasis to the user controls.
 The diving and it's benefits sections I left in black and white to make the text easy to read.
 I added a background color to the wish list and dont forget sections to try and excite the user whilst they used the map and discovered new divesites. 
-I decided on color #f8d59c, as it still contrasted with the heading background but was pale enough to not be a massive distraction for the user.
+I decided on color ![#f8d59c](https://placehold.it/15/CD853F/000000?text=+) #f8d59c, as it still contrasted with the heading background but was pale enough to not be a massive distraction for the user.
 
 #### Font-
 
@@ -178,9 +178,9 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 * _Confirmation Emails_ - Using emailjs to also send an email to the user to confirm their email has been received - this will be implemented in the future as the user alreday gets a pop up informing them that the email has successfully been sent.
 
-### Bugs and Fixes after Testing - 
+### Bugs and Fixes Implemented after Testing - 
 
-* _Background Colour_ - Changed the contact us form's background color to white as in the feedback it was found harder to see with ##f8d59c.
+* _Background Colour_ - Changed the contact us form's background color to ![#fff](https://placehold.it/15/CD853F/000000?text=+) #fff white as in the feedback it was found harder to see with ##f8d59c.
 
 * _Container_ - Added a container class to the sections of all my pages as it looks better on bigger screen sizes. 
 
@@ -189,6 +189,10 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 * _Images_ - Optimised all of my images to give my website a faster loading time.
 
 * _Gallery_ - Added a height of 0 and padding-bottom 60% to you tube videos so they're more responsive.
+
+* _Send Email_ - Changed the send email button background colour to ![#14213D](https://placehold.it/15/CD853F/000000?text=+) #14213D Oxford Blue to better match my site.
+
+* _@ Hover_ - Changed the colour to ![#f8d59c](https://placehold.it/15/CD853F/000000?text=+) #f8d59c Orange to add more contrast.
 
 ## Technologies Used
 
