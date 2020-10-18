@@ -79,6 +79,24 @@ I have produced a mock up of all 3 of my website pages.
 
 ### Design
 
+#### Design Process-
+
+1. _Strategy Plane_ - From the onset I knew that my primary aim was to encourage people who scuba dive to explore different divesites in a way that was engaging and simple, therefore stimulating them to get back in the water. My main focus thoughout this project has been to excute this aim. I started the UX process by making a list of user stories, which allowed me to visualise what would be necessary to satisy them.
+
+2. _Scope Plane_ - Having decided the main aim for the project, I began outlining the key features that I wanted my website to have. To do so, I focused on the JavaScript that I wanted to experiment with and ultimately implement, as I knew this would be crucial to the aim of making the website interactive. This led me to decide that I wanted to focus on three key features: a page with a Google Maps API, a wish list for users to add any future divesites they wish to visit and the chance for them to give feedback by way of a contact us form.
+
+3. _Structure Plane_ - Once I had narrowed down the features I wanted to include, I formulated the structure of my design into 3 seperate pages: 'Home', 'UK Divesites', 'Contact Us'. The 'Home' page tells users some of the benefits of scuba diving, with images and a you tube video to entice them back into the water. After this came the 'UK Divesites' page where users can use the google map markers to find new divesites and add the names of those sites into the wish list situated underneath. If the user has any problems, or finds a new divesite to add to the website, or even just wants to stay in touch they can use the contact form to send an email and short message to the website owner. I made navigation through the website easy with a navbar thats the same on every page.
+
+4. _Skeleton Plane_ - As mentioned in the Structure Plane, I decided to use a navbar as the source of navigation through the website. This allows the user to move thoughout the site at a pace that suits them, in the easiest way possible. Returning users can find the page they're looking for, using the navbar, without having to scroll through lots of information they've already seen on previous visits to get to the page they want.
+
+5. _Surface Plane_ -
+
+   * For my design to work, I knew that it would be important to create a theme that would keep the user interested. My first design decision was therefore to make the website as bright and colourful with images and videos of diving experiences to gain and keep thier attention.
+   * With this in mind, I began experimenting with my wireframes. I found it useful to generate a color scheme using coolors, which provided me with contrasting colours for my website and found images that complemented that colour scheme. I was introduced to figma towards the end of my project and used it to make mock ups of my websites pages.
+   * With the wireframes complete I began experimenting with the Javascript for my features. I used a different workspace for the different javascript needed for each feature.
+
+> Note: Throughout the design process, I kept referring back to my original 'Main Aims' and 'User Stories' to make sure that my project was developing as intended.
+
 #### Colour Palette-
 
 I used coolors to generate my colour scheme-
@@ -105,7 +123,7 @@ I gave the font a size of 120% so the text was easier to read on smaller screen 
 * As a diver, I want to find new dive sites quickly and easily, and have information on that dive site accessable in an easy to read and understand formatt.
   The about section in index.html tells the user how to use the page and google map to meet thier needs quickly and efficiently.
   The google map markers have been placed on the map on the location of the dive site and, when clicked will open an info window containing relevent information about that particular dive site,
-   along with a link to a dive company that runs dives in that area.
+  along with a link to a dive company that runs dives in that area.
 
 * As a user, I want to know how the website works and have easy to follow instructions.
 
