@@ -61,6 +61,11 @@ h2 {
   color: #f8d59c;
 }
 
+.navbar a.active {
+    background-color: #f8d59c;
+    color: #14213d;
+}
+
 .dropdown-menu.show {
   padding: 0;
   letter-spacing: 0.1em;
@@ -168,6 +173,7 @@ h2 {
 form {
   padding: 5px;
   letter-spacing: 0.1em;
+  margin: 10px;
 }
 
 .email {
