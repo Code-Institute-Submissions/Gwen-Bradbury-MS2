@@ -1,3 +1,4 @@
+/* Sets map */
 function initMap() {
   let map = new google.maps.Map(document.getElementById("map"), {
     zoom: 3,
@@ -6,7 +7,7 @@ function initMap() {
       lng: -0.1278,
     },
   });
-
+/* Array of contents */
   let diveSite = [
     {
       coordinates: { lat: 54.1388, lng: -2.7174 },
@@ -59,20 +60,20 @@ function initMap() {
         '<h4>M2 Portland</h4><br>Ever wanted to dive alongside a sunken submarine? HMS M2 is one of the most unusual submarine wrecks in the UK. Situated three miles off Lyme Bay in Dorset, it lies at around 36m deep and was an underwater aircraft carrier designed to surface, launch one plane and sink into the depths again.<br>Dive with <a href="https://divebeyond.co.uk/" target="_blank">Dive Beyond</a>',
     },
   ];
-
+/* Info Window */
   let infoWindow = new google.maps.InfoWindow();
 
   for (let i = 0; i < diveSite.length; i++) {
     setDivesite(diveSite[i]);
   }
-  
+/* Set Content to Markers */  
   function setDivesite(props) {
     let marker = new google.maps.Marker({
       position: props.coordinates,
       map: map,
       animation: google.maps.Animation.DROP,
     });
-
+/* Add Click Listener */
     marker.addListener("click", function () {
       infoWindow.setContent(props.content);
       infoWindow.open(map, marker);

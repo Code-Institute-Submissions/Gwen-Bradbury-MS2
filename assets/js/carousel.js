@@ -1,5 +1,7 @@
+/* Variables */
 let i = 0;
 let time = 4000;
+/* Array of Images */
 let images = [
 {
   content: 'assets/images/coral_optimized.jpg',
@@ -23,6 +25,7 @@ let images = [
 }
 ];
 
+/* Function to add images to carousel */
 function carousel() {
     document.querySelector('.image').src = images[i].content;
     document.querySelector('.image').alt = images[i].altText;
@@ -32,6 +35,7 @@ function carousel() {
     else{
     	i = 0;
     }
+/* Sets the time before the images change */ 
     setTimeout(carousel, time);
 }
 window.onload = carousel();

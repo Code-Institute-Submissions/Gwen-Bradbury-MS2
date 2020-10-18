@@ -1,3 +1,4 @@
+/* Send Email Using Emailjs and Message Template */
 function sendMail(contactForm) {
   emailjs
     .send("gmail", "messagejs", {
@@ -5,6 +6,7 @@ function sendMail(contactForm) {
       from_email: contactForm.emailaddress.value,
       message_request: contactForm.messagesummary.value,
     })
+/* Success and Failed Response to User */    
     .then(
       function (response) {
         "SUCCESS", response;
@@ -14,5 +16,6 @@ function sendMail(contactForm) {
         "FAILED", error;
         alert("FAILED!" + error);
       });
+/* Stop the Window Reloading */      
   return false;
 }
