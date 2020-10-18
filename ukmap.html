@@ -11,14 +11,6 @@
             crossorigin="anonymous"
             />
         <link rel="stylesheet" href="assets/css/style.css" />
-        <script
-            src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
-            ></script>
-        <script>
-            (function () {
-              emailjs.init("user_nJAYtOnIQUCRnzvxO7Mhm");
-            })();
-        </script>
     </head>
     <body>
         <!-- Into The Blue Navbar -->
@@ -44,7 +36,7 @@
                                 >Home<span class="sr-only">(current)</span></a
                                 >
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown active">
                             <a
                                 class="nav-link dropdown-toggle"
                                 href="#"
@@ -57,11 +49,11 @@
                             Contents
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="ukmap.html">UK Dive sites</a>
+                                <a class="dropdown-item active" href="ukmap.html">UK Dive sites</a>
                                 <a class="dropdown-item" href="cyprusmap.html">Cyprus Dive sites</a>
                             </div>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="email.html">Contact Us</a>
                         </li>
                     </ul>
@@ -70,45 +62,60 @@
         </nav>
         <!-- Carousel -->
         <div id="carousel">
-            <img class="image" alt="Image Carousel Failed" src="#"/>
+            <img class="image"/>
         </div>
-        <!-- Emails -->
+        <!-- About -->
+        <div class="container" id="about">
+            <div class="row">
+                <div class="col-12">
+                    <h2>UK Diving Sites</h2>
+                    <p>Click a map pin to discover a dive site!</p>
+                    <p>
+                        Use the "Wishlist" to add the name and dive center of the divesite
+                        you want to visit to your list!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Google Map -->
         <div class="container">
-            <h2>Contact Us!</h2>
-            <div class="center-form email">
-                <form onsubmit="return sendMail(this);">
-                    <input
-                        type="text"
-                        name="name"
-                        id="fullname"
-                        class="form-control"
-                        placeholder="Name:"
-                        required
-                        />
-                    <input
-                        type="email"
-                        name="email"
-                        id="emailaddress"
-                        class="form-control"
-                        placeholder="Email:"
-                        required
-                        />
-                    <textarea
-                        rows="5"
-                        name="messagesummary"
-                        id="messagesummary"
-                        class="form-control"
-                        placeholder="Write Message Here!"
-                        required
-                        ></textarea>
-                    <div class="form-row text-center">
-                        <div class="col">
-                            <button type="submit" class="btn btn-dark send-email">
-                            Send Email <i class="fas fa-paper-plane"></i>
+            <div id="map" alt="Image Carousel Failed" src="#"></div>
+        </div>
+        <!-- You have a wish list? -->
+        <div class="container">
+            <h2>You have a wish list?! Add it here!!!</h2>
+        </div>
+        <!-- Wish List -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div id="wishList" class="center-form">
+                        <h4>Wish List</h4>
+                        <form>
+                            <input type="text" class="location-input" />
+                            <button class="location-button" type="submit">
+                            <i class="fas fa-plus-square"></i>
                             </button>
-                        </div>
+                        </form>
+                        <ol class="location-list"></ol>
                     </div>
-                </form>
+                </div>
+                <!-- Don't Forget! -->
+                <div class="col-md-6 col-sm-12">
+                    <div id="dontforget">
+                        <h4>Don't Forget!</h4>
+                        <ul class="items">
+                            <li><i class="fas fa-swimmer"></i> Fins</li>
+                            <li><i class="fas fa-weight-hanging"></i> Weights</li>
+                            <li><i class="fas fa-mask"></i> Mask and Snorkel</li>
+                            <li><i class="fas fa-address-card"></i> Licenses</li>
+                            <li>
+                                <i class="fas fa-american-sign-language-interpreting"></i> And
+                                BUDDIES!
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Footer -->
@@ -138,7 +145,13 @@
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"
             ></script>
+        <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
+        <script
+            defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvEwDg0hVK9kNNuuqKCYi3V9PDB3ZnuMs&callback=initMap"
+            ></script>
+        <script src="assets/js/maps.js"></script>
+        <script src="assets/js/wishList.js"></script>
         <script src="assets/js/carousel.js"></script>
-        <script src="assets/js/email.js"></script>
     </body>
 </html>

@@ -8,7 +8,7 @@ function initMap() {
     },
   });
 /* Array of contents */
-  let diveSite = [
+  let UKdiveSites = [
     {
       coordinates: { lat: 54.1388, lng: -2.7174 },
       content:
@@ -60,12 +60,45 @@ function initMap() {
         '<h4>M2 Portland</h4><br>Ever wanted to dive alongside a sunken submarine? HMS M2 is one of the most unusual submarine wrecks in the UK. Situated three miles off Lyme Bay in Dorset, it lies at around 36m deep and was an underwater aircraft carrier designed to surface, launch one plane and sink into the depths again.<br>Dive with <a href="https://divebeyond.co.uk/" target="_blank">Dive Beyond</a>',
     },
   ];
+
+  let cyprusDiveSites = [
+        {
+            coordinates: { lat: 54.1388, lng: -2.7174 },
+            content:
+                '<h4>AAAHHHHHHHHH!!!!!</h4><br>AAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHH!!!!!!!!!!<br>Dive with <a href="https://www.dive-site.co.uk/" target="_blank">Capernwray Diving Center</a>',
+        },
+        {
+            coordinates: { lat: 51.1781, lng: -4.6673 },
+            content:
+                '<h4>AAAHHHHHHHHH!!!!!</h4><br>AAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHH!!!!!!!!!!<br>Dive with <a href="https://www.lundydiving.co.uk/diving/" target="_blank">Lundy Diving</a>',
+        },
+        {
+            coordinates: { lat: 58.9, lng: -3.05 },
+            content:
+                '<h4>AAAHHHHHHHHH!!!!!</h4><br>AAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHH!!!!!!!!!!<br>Dive with <a href="http://www.scapaflow.com/" target="_blank">Johns Diving Charters</a>',
+        },
+        {
+            coordinates: { lat: 55.6399, lng: -1.603 },
+            content:
+                '<h4>AAAHHHHHHHHH!!!!!</h4><br>AAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHH!!!!!!!!!!<br>Dive with <a href="https://travel.padi.com/d/united-kingdom/" target="_blank">PADI North England</a>',
+        },
+    ];
 /* Info Window */
   let infoWindow = new google.maps.InfoWindow();
 
-  for (let i = 0; i < diveSite.length; i++) {
-    setDivesite(diveSite[i]);
+  const location = window.location.href;
+  const isuk = location.includes("ukmap");
+  const isnotuk = location.includes("cyprusmap");
+
+  if(isuk) {
+  for (let i = 0; i < UKdiveSites.length; i++) {
+    setDivesite(UKdiveSites[i]);
   }
+} else if(isnotuk) {
+    for (let i = 0; i < cyprusDiveSites.length; i++) {
+    setDivesite(cyprusDiveSites[i]);
+}
+}
 /* Set Content to Markers */  
   function setDivesite(props) {
     let marker = new google.maps.Marker({
