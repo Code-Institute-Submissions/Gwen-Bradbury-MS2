@@ -1,13 +1,29 @@
+/* What page are we on?*/
+const page = window.location.href;
+const isuk = page.includes("ukmap");
+const isCyprus = page.includes("cyprusmap");
+/* Setting the center of the map */
+let pos;
+
+if (isuk) {
+  pos = {
+    lat: 51.5074,
+    lng: -0.1278,
+  };
+} else if (isCyprus) {
+  pos = {
+    lat: 35.1264,
+    lng: 33.4299,
+  };
+}
+
 /* Sets map */
 function initMap() {
-  let map = new google.maps.Map(document.getElementById("map"), {
+  var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 3,
-    center: {
-      lat: 51.5074,
-      lng: -0.1278,
-    },
+    center: pos,
   });
-/* Array of contents */
+  /* Array of contents */
   let UKdiveSites = [
     {
       coordinates: { lat: 54.1388, lng: -2.7174 },
@@ -62,51 +78,47 @@ function initMap() {
   ];
 
   let cyprusDiveSites = [
-        {
-            coordinates: { lat: 34.8975, lng: 33.6542 },
-            content:
-                '<h4>The Zenobia</h4><br>The MS Zenobia was a roll-on roll-off ferry which launched in 1979 and sank in 1980 on her maiden voyage. No lives were lost. She lies on her side, outside Lanarka harbour. The dive starts at 16 m with a maximum depth of 42 m. A large wreck: you will need several dives to do it justice.<br>Dive with <a href="https://alpha-divers.com/" target="_blank">Alpha Divers</a>',
-        },
-        {
-            coordinates: { lat: 34.6866, lng: 33.0724 },
-            content:
-                '<h4>Costandinos & Lady Thetis Wrecks</h4><br>In 2014 a marine reserve was created in Limassol and 2 wrecks were sank to create artificial reefs. Costandis & Lady Thetis lay a short distance from each other and are easily accessible with a short boat ride. They are now are home to an array of marine life. Including a large, very friendly grouper we call George. Both wrecks sit upright in the water and are a fun divers playground. Open spaces have been created to swim easily through the engine rooms, Navigational Bridge and around and through the decks.<br>Dive with <a href="https://www.divingincyprus.net/" target="_blank">Marine Divers</a>',
-        },
-        {
-            coordinates: { lat: 34.8541, lng: 32.3694 },
-            content:
-                '<h4>The Amphitheatre</h4><br>A two minute drive from Marine Divers to one of the areas most popular dive sites the "Amphitheatre". The name was created due to the rock formations creating a "replica" of an Amphitheatre! This dive is great for beginners and experienced divers alike.  After striding into the water you are able to drop down just a few meters and make your way gradually towards this amazing phenomenon. Along the way look out for Groupers, Yellow spotted moray eels, flute fish, and octopus. A dive designed to allow any ability of diver to enjoy the beautiful underwater scenery.<br>Dive with <a href="https://www.divingincyprus.net/" target="_blank">Marine Divers</a>',
-        },
-        {
-            coordinates: { lat: 34.85874, lng: 32.346869 },
-            content:
-                '<h4>Pistol Bay / Turtle Rock</h4><br>A two minute drive from Marine Divers is the Pistol Bay Area, a fabulous dive site loved by everyone (The Local Divers Favourite), with lots of swim-trough’s to explore, you will want to spend as long as you can at this dive site. See Jonnys Turtle Rock formation as a real one may be swimming by.<br>Dive with <a href="https://www.divingincyprus.net/" target="_blank">Marine Divers</a>',
-        },
-    ];
-/* Info Window */
+    {
+      coordinates: { lat: 34.8975, lng: 33.6542 },
+      content:
+        '<h4>The Zenobia</h4><br>The MS Zenobia was a roll-on roll-off ferry which launched in 1979 and sank in 1980 on her maiden voyage. No lives were lost. She lies on her side, outside Lanarka harbour. The dive starts at 16 m with a maximum depth of 42 m. A large wreck: you will need several dives to do it justice.<br>Dive with <a href="https://alpha-divers.com/" target="_blank">Alpha Divers</a>',
+    },
+    {
+      coordinates: { lat: 34.6866, lng: 33.0724 },
+      content:
+        '<h4>Costandinos & Lady Thetis Wrecks</h4><br>In 2014 a marine reserve was created in Limassol and 2 wrecks were sank to create artificial reefs. Costandis & Lady Thetis lay a short distance from each other and are easily accessible with a short boat ride. They are now are home to an array of marine life. Including a large, very friendly grouper we call George. Both wrecks sit upright in the water and are a fun divers playground. Open spaces have been created to swim easily through the engine rooms, Navigational Bridge and around and through the decks.<br>Dive with <a href="https://www.divingincyprus.net/" target="_blank">Marine Divers</a>',
+    },
+    {
+      coordinates: { lat: 34.8541, lng: 32.3694 },
+      content:
+        '<h4>The Amphitheatre</h4><br>A two minute drive from Marine Divers to one of the areas most popular dive sites the "Amphitheatre". The name was created due to the rock formations creating a "replica" of an Amphitheatre! This dive is great for beginners and experienced divers alike.  After striding into the water you are able to drop down just a few meters and make your way gradually towards this amazing phenomenon. Along the way look out for Groupers, Yellow spotted moray eels, flute fish, and octopus. A dive designed to allow any ability of diver to enjoy the beautiful underwater scenery.<br>Dive with <a href="https://www.divingincyprus.net/" target="_blank">Marine Divers</a>',
+    },
+    {
+      coordinates: { lat: 34.85874, lng: 32.346869 },
+      content:
+        '<h4>Pistol Bay / Turtle Rock</h4><br>A two minute drive from Marine Divers is the Pistol Bay Area, a fabulous dive site loved by everyone (The Local Divers Favourite), with lots of swim-trough’s to explore, you will want to spend as long as you can at this dive site. See Jonnys Turtle Rock formation as a real one may be swimming by.<br>Dive with <a href="https://www.divingincyprus.net/" target="_blank">Marine Divers</a>',
+    },
+  ];
+  /* Info Window */
   let infoWindow = new google.maps.InfoWindow();
 
-  const location = window.location.href;
-  const isuk = location.includes("ukmap");
-  const isnotuk = location.includes("cyprusmap");
-
-  if(isuk) {
-  for (let i = 0; i < UKdiveSites.length; i++) {
-    setDivesite(UKdiveSites[i]);
-  }
-} else if(isnotuk) {
+  if (isuk) {
+    for (let i = 0; i < UKdiveSites.length; i++) {
+      setDivesite(UKdiveSites[i]);
+    }
+  } else if (isCyprus) {
     for (let i = 0; i < cyprusDiveSites.length; i++) {
-    setDivesite(cyprusDiveSites[i]);
-}
-}
-/* Set Content to Markers */  
+      setDivesite(cyprusDiveSites[i]);
+    }
+  }
+  /* Set Content to Markers */
   function setDivesite(props) {
     let marker = new google.maps.Marker({
       position: props.coordinates,
       map: map,
       animation: google.maps.Animation.DROP,
     });
-/* Add Click Listener */
+    /* Add Click Listener */
     marker.addListener("click", function () {
       infoWindow.setContent(props.content);
       infoWindow.open(map, marker);
