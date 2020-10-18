@@ -287,11 +287,11 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 6.  **Manual Testing**
 
-    - The website has been tested manually by myself and my friend Mr_Bim. All the buttons have been pressed, all the links tested and everything reacts as expected. It's been run on different screen sizes to test responsiveness and all buttons and links have been clicked across those various screen sizes and the website reacted as expected. 
-    - The nav links take the user to the respective pages across all devices and screen sizes.
-    - The add location button adds the location to the wish list and the remove button removes the location from the wish list across all devices and screen sizes. 
-    - The send email button and success modal work across all devices and screen sizes. 
-    - The map and markers open and close when clicked, and the info windows are fully responsive across all devices and screen sizes.
+    - The website has been tested manually by myself and my friend Mr_Bim. All the buttons have been pressed, all the links tested and everything reacts as expected. It's been run on different screen sizes and browsers to test responsiveness and all buttons and links have been clicked across those various screen sizes and browsers and the website reacted as expected. 
+    - The nav links take the user to the respective pages across all devices, browsers and screen sizes.
+    - The add location button adds the location to the wish list and the remove button removes the location from the wish list across all devices, browsers and screen sizes. 
+    - The send email button and success modal work across all devices,browsers and screen sizes. 
+    - The map and markers open and close when clicked, and the info windows are fully responsive across all devices, browsers and screen sizes.
 
 All of my HTML, CSS and Javascript was then run through the validators without returning any errors.
 
