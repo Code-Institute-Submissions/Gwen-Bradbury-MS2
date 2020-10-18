@@ -63,24 +63,24 @@ function initMap() {
 
   let cyprusDiveSites = [
         {
-            coordinates: { lat: 54.1388, lng: -2.7174 },
+            coordinates: { lat: 34.8975, lng: 33.6542 },
             content:
-                '<h4>AAAHHHHHHHHH!!!!!</h4><br>AAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHH!!!!!!!!!!<br>Dive with <a href="https://www.dive-site.co.uk/" target="_blank">Capernwray Diving Center</a>',
+                '<h4>The Zenobia</h4><br>The MS Zenobia was a roll-on roll-off ferry which launched in 1979 and sank in 1980 on her maiden voyage. No lives were lost. She lies on her side, outside Lanarka harbour. The dive starts at 16 m with a maximum depth of 42 m. A large wreck: you will need several dives to do it justice.<br>Dive with <a href="https://alpha-divers.com/" target="_blank">Alpha Divers</a>',
         },
         {
-            coordinates: { lat: 51.1781, lng: -4.6673 },
+            coordinates: { lat: 34.6866, lng: 33.0724 },
             content:
-                '<h4>AAAHHHHHHHHH!!!!!</h4><br>AAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHH!!!!!!!!!!<br>Dive with <a href="https://www.lundydiving.co.uk/diving/" target="_blank">Lundy Diving</a>',
+                '<h4>Costandinos & Lady Thetis Wrecks</h4><br>In 2014 a marine reserve was created in Limassol and 2 wrecks were sank to create artificial reefs. Costandis & Lady Thetis lay a short distance from each other and are easily accessible with a short boat ride. They are now are home to an array of marine life. Including a large, very friendly grouper we call George. Both wrecks sit upright in the water and are a fun divers playground. Open spaces have been created to swim easily through the engine rooms, Navigational Bridge and around and through the decks.<br>Dive with <a href="https://www.divingincyprus.net/" target="_blank">Marine Divers</a>',
         },
         {
-            coordinates: { lat: 58.9, lng: -3.05 },
+            coordinates: { lat: 34.8541, lng: 32.3694 },
             content:
-                '<h4>AAAHHHHHHHHH!!!!!</h4><br>AAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHH!!!!!!!!!!<br>Dive with <a href="http://www.scapaflow.com/" target="_blank">Johns Diving Charters</a>',
+                '<h4>The Amphitheatre</h4><br>A two minute drive from Marine Divers to one of the areas most popular dive sites the "Amphitheatre". The name was created due to the rock formations creating a "replica" of an Amphitheatre! This dive is great for beginners and experienced divers alike.  After striding into the water you are able to drop down just a few meters and make your way gradually towards this amazing phenomenon. Along the way look out for Groupers, Yellow spotted moray eels, flute fish, and octopus. A dive designed to allow any ability of diver to enjoy the beautiful underwater scenery.<br>Dive with <a href="https://www.divingincyprus.net/" target="_blank">Marine Divers</a>',
         },
         {
-            coordinates: { lat: 55.6399, lng: -1.603 },
+            coordinates: { lat: 34.85874, lng: 32.346869 },
             content:
-                '<h4>AAAHHHHHHHHH!!!!!</h4><br>AAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHH!!!!!!!!!!<br>Dive with <a href="https://travel.padi.com/d/united-kingdom/" target="_blank">PADI North England</a>',
+                '<h4>Pistol Bay / Turtle Rock</h4><br>A two minute drive from Marine Divers is the Pistol Bay Area, a fabulous dive site loved by everyone (The Local Divers Favourite), with lots of swim-trough’s to explore, you will want to spend as long as you can at this dive site. See Jonnys Turtle Rock formation as a real one may be swimming by.<br>Dive with <a href="https://www.divingincyprus.net/" target="_blank">Marine Divers</a>',
         },
     ];
 /* Info Window */
