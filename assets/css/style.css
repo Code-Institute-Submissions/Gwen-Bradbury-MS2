@@ -176,6 +176,10 @@ form {
   margin: 10px;
 }
 
+textarea[name=messagesummary] {
+  resize: none;
+}
+
 .email {
   margin: 30px;
 }
