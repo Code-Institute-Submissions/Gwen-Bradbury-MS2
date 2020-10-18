@@ -51,6 +51,10 @@ The contact page allows users to email messages to the site owner.
 The website is colourful and engaging, drawing the user in with bright, bold images and standout text, which I hope entices them
 to get planning thier next dive trip.
 
+A link to my website can be found [here](https://gwen-bradbury.github.io/MS2/)
+
+
+
 ## UX
 
 The purpose of the site is to provide a simple, straightforward format presenting information about some of the UK's best divesites.
