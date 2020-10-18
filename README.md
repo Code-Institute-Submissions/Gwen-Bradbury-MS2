@@ -198,8 +198,6 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 - _Loading Bar_ - To give the website a more user friendly design whilst waiting for the pages to load.
 
-- _Confirmation Emails_ - Using emailjs to also send an email to the user to confirm their email has been received - this will be implemented in the future as the user alreday gets a pop up informing them that the email has successfully been sent.
-
 ### Bugs and Fixes Implemented after Testing -
 
 - _Background Colour_ - Changed the contact us form's background color to ![#fff](https://placehold.it/15/FFF/000000?text=+) #fff white as in the feedback it was found harder to see with ##f8d59c.
@@ -217,6 +215,8 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 - _@ Hover_ - Changed the colour to ![#f8d59c](https://placehold.it/15/F8D59C/000000?text=+) #f8d59c Orange to add more contrast.
 
 - _Cyprus Divesites page_ - Another page with google map and markers with information on divesites in Cyprus.
+
+- _Email Response_ - Using emailjs to send an email to the user to confirm their email has been received.
 
 ## Technologies Used
 
