@@ -216,6 +216,8 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 
 - _@ Hover_ - Changed the colour to ![#f8d59c](https://placehold.it/15/F8D59C/000000?text=+) #f8d59c Orange to add more contrast.
 
+- _Cyprus Divesites page_ - Another page with google map and markers with information on divesites in Cyprus.
+
 ## Technologies Used
 
 ### Languages-
