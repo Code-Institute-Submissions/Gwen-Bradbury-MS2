@@ -301,7 +301,7 @@ All of my HTML, CSS and Javascript was then run through the validators without r
 
 ### Validation of Code Testing- 
 
-   - 
+   - All of my HTML, CSS and Javascript was run through the validators without returning any errors.
 
 ## Deployment
 
