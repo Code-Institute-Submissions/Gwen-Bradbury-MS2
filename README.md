@@ -303,6 +303,8 @@ All of my HTML, CSS and Javascript was then run through the validators without r
 
   * Wish List - Needs a required field adding as you can add to it with no value.
 
+  * White Space - On the Ios when you type into the form and the keypad opens up theres some scrollable white space between the footer and the keypad when the keypads open.
+
 ### Validation of Code Testing- 
 
    - All of my HTML, CSS and Javascript was run through the validators without returning any errors.
