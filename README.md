@@ -136,7 +136,7 @@ I gave the font a size of 120% so the text was easier to read on smaller screen 
 
 * _Navbar_ - Holds the name of the page and links that will take the user to the other pages of the site when clicked. It has a dropdown toggle for use on smaller screens and is fixed so will always be seen by the user. The nav links have an a:hover CSS element that allows the user to see that the cursor is over a nav link and that it can be clicked.
 
-* _Carousel_ - A slide show of images that have been taken whilst diving to encourage divers to explore more of the website and eventually get diving. THe images are bright and bold, to catch the users eye, and are responsive for smaller screen sizes.
+* _Carousel_ - A slide show of images that have been taken whilst diving to encourage divers to explore more of the website and eventually get diving. THe images are bright and bold, to catch the users eye, and are responsive for smaller screen sizes. The carousel was defensively designed with an alt text of placeholder and src of #, as both of those elements are implemented in the carousel.js file and will cause errors when run through a validator.
 
 * _Diving and it's benefits Section_ - Information on the mental and physical benefits of scuba diving, and the benefits to the underwater creatures and thier habitats.
 
@@ -173,6 +173,18 @@ The Navbar, Carousel and Footer are repeated on the other pages of the website t
 * _Loading Bar_ - To give the website a more user friendly design whilst waiting for the pages to load.
 
 * _Confirmation Emails_ - Using emailjs to also send an email to the user to confirm their email has been received - this will be implemented in the future as the user alreday gets a pop up informing them that the email has successfully been sent.
+
+### Bugs and Fixes after Testing - 
+
+* _Background Colour_ - Changed the contact us form's background color to white as in the feedback it was found harder to see with ##f8d59c.
+
+* _Container_ - Added a container class to the sections of all my pages as it looks better on bigger screen sizes. 
+
+* _Carousel_ - Added max-height: 700px; CSS as it looks better on bigger screen sizes.
+
+* _Images_ - Optimised all of my images to give my website a faster loading time.
+
+* _Gallery_ - Added a height of 0 and padding-bottom 60% to you tube videos so they're more responsive.
 
 ## Technologies Used
 
@@ -335,6 +347,8 @@ For more information about the above process; https://help.github.com/en/github/
    http://ami.responsivedesign.is/
 
 6. Code Institues tutorial videos (https://codeinstitute.net/)
+
+7. Image optimiser http://www.simpleimageresizer.com/image-optimizer#.X4wCv-jYrrc
 
 ### Acknowledgements-
 

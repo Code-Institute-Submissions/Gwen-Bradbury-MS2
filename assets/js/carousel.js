@@ -2,11 +2,11 @@ let i = 0;
 let time = 4000;
 let images = [
 {
-  content: 'assets/images/coral.jpg',
+  content: 'assets/images/coral_optimized.jpg',
   altText: 'Coral'
 },
 {
-   content: 'assets/images/ray.jpg',
+   content: 'assets/images/ray_optimized.jpg',
    altText: 'Stingray'
 },
 {
@@ -14,11 +14,11 @@ let images = [
     altText: 'Sharks'
 },
 {
-   content: 'assets/images/shoal.jpg',
+   content: 'assets/images/shoal_optimized.jpg',
    altText: 'Fish'
 },
 {
-   content: 'assets/images/singlefish.jpg',
+   content: 'assets/images/singlefish_optimized.jpg',
    altText: 'Fish next to a diver'
 }
 ];
